@@ -1,0 +1,13 @@
+/.cabal-sandbox/
+/_cache/
+/_site/
+/cabal.sandbox.config
+/dist/
+/future.html
+/ideas.html
+/index.html
+/js/
+/site.hs
+/talks.cabal
+/talks/
+/templates/
