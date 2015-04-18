@@ -1,0 +1,33 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        $title$
+        <small>by $author$
+          $if(twitter)$
+            (<a href="http://twitter.com/$twitter$">@$twitter$</a>)
+          $endif$
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>$title$</h2>
+      <p>
+        By $author$
+        $if(twitter)$
+          (<a href="http://twitter.com/$twitter$">@$twitter$</a>)
+        $endif$
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    $body$
+    <hr/>
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/$ytid$" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="panel-footer">
+    $date$ - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/$event$/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
