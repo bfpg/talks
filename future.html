@@ -55,6 +55,24 @@
       <li>Include client-side code that makes incorrect assumptions about the "AJAX"-style services that the remote web server provides</li>
       <li>Attempt invalid SQL queries</li>
       <li>Use improper marshaling or unmarshaling in communication with SQL databases or between browsers and web servers</li>
+    </ul>
+    <h2>Exact Real Arithmetic in Haskell - Mitchell Riley</h2>
+    <p>
+      Exact real arithmetic allows us to do computations without worrying
+      about precision or rounding. In contrast with arbitrary precision
+      arithmetic, we only need to specify an output precision and the
+      details for intermediate steps are handled automatically.
+    </p>
+    <p>
+      In this talk we will implement exact real arithmetic in two very
+      different ways. First, the "fast binary Cauchy" system amounts to
+      representing each real as a function Natural -> Rational, such that
+      each successive output is a closer approximation to the true value
+      than the last. The second system represents each real number as a
+      continued fraction; an infinite tower of sums and reciprocals. Both
+      systems benefit from a functional programming style and the resulting
+      code is very simple to understand.
+    </p>
   </div>
   <div class="panel-footer">
     <a href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830899/" target="_blank">
