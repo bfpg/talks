@@ -35,6 +35,8 @@ main = hakyllWith config $ do
         })
       defaultHakyllWriterOptions
       >>= loadAndApplyTemplate "templates/talk.html"    talkCtx
+      -- Used by the RSS/Atom feed
+      >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "templates/default.html" talkCtx
       >>= relativizeUrls
 
@@ -52,6 +54,17 @@ main = hakyllWith config $ do
         >>= loadAndApplyTemplate "templates/default.html" talksCtx
         >>= relativizeUrls
 
+  -- http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html
+  let rss name render' =
+        create [name] $ do
+          route idRoute
+          compile $ do
+            let feedCtx = talkCtx <> bodyField "description"
+            posts <- fmap (take 10) . recentFirst =<< loadAllSnapshots "talks/*" "content"
+            render' feedConfiguration feedCtx posts
+
+  rss "rss.xml" renderRss
+  rss "atom.xml" renderAtom
 
   match "index.html" $ do
     route idRoute
@@ -77,4 +90,17 @@ talkCtx =
 config :: Configuration
 config = defaultConfiguration
   { deployCommand = "cp -r ./_site/ ../talks-deploy && cd ../talks-deploy && git add -f . && git commit -m 'Deploying site' && git push"
+  }
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+  { feedTitle       = "BFPG Talks"
+  , feedDescription = concat [
+      "The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn "
+    , "functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial "
+    , "users of FP."
+    ]
+  , feedAuthorName  = "BFPG"
+  , feedAuthorEmail = "exec@lists.bfpg.org"
+  , feedRoot        = "http://talks.bfpg.org/"
   }
