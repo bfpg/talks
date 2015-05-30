@@ -6,6 +6,8 @@
         <link href="./css/roboto.css" rel="stylesheet">
         <link href="./css/material.css" rel="stylesheet">
         <link href="./css/ripples.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom - BFPG Talks" href="./atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - BFPG Talks" href="./rss.xml" />
     </head>
 
     <body>
@@ -43,7 +45,36 @@
     <h2>May Meetup - 2015-04-12</h2>
   </div>
   <div class="panel-body">
-    None yet! :(
+    <h2>Ur/Web - Sean Chalmers</h2>
+    <p>Following on from our introduction to dependent types in AGDA, Sean is going to show us around Ur and Ur/Web, a dependently typed langauge and full stack web framework.</p>
+    <p>Ur is a programming language in the tradition of ML and Haskell, but featuring a significantly richer type system. Ur is functional, pure, statically typed, and strict. Ur supports a powerful kind of metaprogramming based on row types.</p>
+    <p>Ur/Web is Ur plus a special standard library and associated rules for parsing and optimization. Ur/Web supports construction of dynamic web applications backed by SQL databases. The signature of the standard library is such that well-typed Ur/Web programs "don't go wrong" in a very broad sense. Not only do they not crash during particular page generations, but they also may not:</p>
+    <ul>
+      <li>Suffer from any kinds of code-injection attacks</li>
+      <li>Return invalid HTML</li>
+      <li>Contain dead intra-application links</li>
+      <li>Have mismatches between HTML forms and the fields expected by their handlers</li>
+      <li>Include client-side code that makes incorrect assumptions about the "AJAX"-style services that the remote web server provides</li>
+      <li>Attempt invalid SQL queries</li>
+      <li>Use improper marshaling or unmarshaling in communication with SQL databases or between browsers and web servers</li>
+    </ul>
+    <h2>Exact Real Arithmetic in Haskell - Mitchell Riley</h2>
+    <p>
+      Exact real arithmetic allows us to do computations without worrying
+      about precision or rounding. In contrast with arbitrary precision
+      arithmetic, we only need to specify an output precision and the
+      details for intermediate steps are handled automatically.
+    </p>
+    <p>
+      In this talk we will implement exact real arithmetic in two very
+      different ways. First, the "fast binary Cauchy" system amounts to
+      representing each real as a function Natural -> Rational, such that
+      each successive output is a closer approximation to the true value
+      than the last. The second system represents each real number as a
+      continued fraction; an infinite tower of sums and reciprocals. Both
+      systems benefit from a functional programming style and the resulting
+      code is very simple to understand.
+    </p>
   </div>
   <div class="panel-footer">
     <a href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830899/" target="_blank">
