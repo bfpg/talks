@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>BFPG Talks - Monads (CIS194 Wk 12)</title>
+        <title>BFPG Talks - Next Level MTL with Classy Optics</title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/default.css" rel="stylesheet">
         <link href="../css/roboto.css" rel="stylesheet">
@@ -43,30 +43,33 @@
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
       <h2>
-        Monads (CIS194 Wk 12)
-        <small>by Matt Peddie
+        Next Level MTL with Classy Optics
+        <small>by George Wilson
+          
+            (<a href="http://twitter.com/@GeorgeTalksCode">@@GeorgeTalksCode</a>)
           
         </small>
       </h2>
     </div>
     <div class="visible-xs-block visible-sm-block">
-      <h2>Monads (CIS194 Wk 12)</h2>
+      <h2>Next Level MTL with Classy Optics</h2>
       <p>
-        By Matt Peddie
+        By George Wilson
+        
+          (<a href="http://twitter.com/@GeorgeTalksCode">@@GeorgeTalksCode</a>)
         
       </p>
     </div>
   </div>
   <div class="panel-body">
-    <p>Over the last couple of yorgey lectures, we have seen how the Applicative class allows us to idiomatically handle computations which take place in some sort of &quot;special context&quot; -- for example, taking into account possible failure with Maybe, multiple possible outputs with [], consulting some sort of environment using ((-&gt;) e), or construct parsers using a &quot;combinator&quot; approach, as in the homework.</p>
-<p>However, so far we have only seen computations with a fixed structure, such as applying a data constructor to a fixed set of arguments. What if we don't know the structure of the computation in advance -- that is, we want to be able to decide what to do based on some intermediate results?</p>
+    <p>Many applications leverage monad transformer stacks to control IO effects, handle error conditions, pass configurations, and more. As the requirements of these applications grow, the complexity of these transformer stacks can grow proportionally. If a specific monad transformer stack is used in type signatures, then small changes to the stack can result in large changes to the code. This talk will demonstrate tools from the mtl and the lens library that allow each function's type to describe the required parts of a transformer stack, without depending on the concrete stack itself.</p>
     <hr />
     <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ofz8zO8rjn0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GZPup5Iuaqw" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="panel-footer">
-    February 24, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219978846/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    June  9, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830861/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 

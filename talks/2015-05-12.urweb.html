@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>BFPG Talks - Monads (CIS194 Wk 12)</title>
+        <title>BFPG Talks - Ur/Web</title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/default.css" rel="stylesheet">
         <link href="../css/roboto.css" rel="stylesheet">
@@ -43,30 +43,35 @@
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
       <h2>
-        Monads (CIS194 Wk 12)
-        <small>by Matt Peddie
+        Ur/Web
+        <small>by Sean Chalmers
+          
+            (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
           
         </small>
       </h2>
     </div>
     <div class="visible-xs-block visible-sm-block">
-      <h2>Monads (CIS194 Wk 12)</h2>
+      <h2>Ur/Web</h2>
       <p>
-        By Matt Peddie
+        By Sean Chalmers
+        
+          (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
         
       </p>
     </div>
   </div>
   <div class="panel-body">
-    <p>Over the last couple of yorgey lectures, we have seen how the Applicative class allows us to idiomatically handle computations which take place in some sort of &quot;special context&quot; -- for example, taking into account possible failure with Maybe, multiple possible outputs with [], consulting some sort of environment using ((-&gt;) e), or construct parsers using a &quot;combinator&quot; approach, as in the homework.</p>
-<p>However, so far we have only seen computations with a fixed structure, such as applying a data constructor to a fixed set of arguments. What if we don't know the structure of the computation in advance -- that is, we want to be able to decide what to do based on some intermediate results?</p>
+    <p>Following on from our introduction to dependent types in AGDA, Sean showed us around Ur and Ur/Web, a full stack web language and web framework with an extremely very rich type-system.</p>
+<p>Ur is a programming language in the tradition of ML and Haskell, but featuring a significantly richer type system. Ur is functional, pure, statically typed, and strict. Ur supports a powerful kind of metaprogramming based on row types.</p>
+<p>Ur/Web is Ur plus a special standard library and associated rules for parsing and optimization. Ur/Web supports construction of dynamic web applications backed by SQL databases. The signature of the standard library is such that well-typed Ur/Web programs &quot;don't go wrong&quot; in a very broad sense.</p>
     <hr />
     <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ofz8zO8rjn0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/iPl1_69Vrw0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="panel-footer">
-    February 24, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219978846/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    May 12, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830899/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 
