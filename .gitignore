@@ -3,3 +3,4 @@
 /_site/
 /cabal.sandbox.config
 /dist/
+shell.nix

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -eu
+
+cabal2nix --shell . >shell.nix
+nix-shell --run 'cabal configure && cabal build'
