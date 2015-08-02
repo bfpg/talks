@@ -8,8 +8,108 @@
         <name>BFPG</name>
         <email>exec@lists.bfpg.org</email>
     </author>
-    <updated>2015-06-09T00:00:00Z</updated>
+    <updated>2015-07-14T00:00:00Z</updated>
     <entry>
+    <title>Neophyte Rustacean</title>
+    <link href="http://talks.bfpg.org//talks/2015-07-14.neophyte_rustacean.html" />
+    <id>http://talks.bfpg.org//talks/2015-07-14.neophyte_rustacean.html</id>
+    <published>2015-07-14T00:00:00Z</published>
+    <updated>2015-07-14T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Neophyte Rustacean
+        <small>by James Livingstone
+          
+            (<a href="http://twitter.com/doctau">@doctau</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Neophyte Rustacean</h2>
+      <p>
+        By James Livingstone
+        
+          (<a href="http://twitter.com/doctau">@doctau</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Rust is a new language that had it's first stable 1.0 release in May. Aimed at being an alternative to languages like C, C++ and Go, it is strict and impure, but is much safer than those. It borrows ideas from functional languages, and pays some attention to the last few decades of research.</p>
+<p>We will walk through James' first month and a half with Rust, the triumphs of seeing it prevent bugs, the despair of fighting the borrow checker, and how well it works for some common tasks.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="http://slides.com/doctau/rust-intro/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lNDevmk1MbE" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="panel-footer">
+    July 14, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830864/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Scripting with Haskell</title>
+    <link href="http://talks.bfpg.org//talks/2015-07-14.haskell_scripting.html" />
+    <id>http://talks.bfpg.org//talks/2015-07-14.haskell_scripting.html</id>
+    <published>2015-07-14T00:00:00Z</published>
+    <updated>2015-07-14T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Scripting with Haskell
+        <small>by Christopher McKay
+          
+            (<a href="http://twitter.com/errorific">@errorific</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Scripting with Haskell</h2>
+      <p>
+        By Christopher McKay
+        
+          (<a href="http://twitter.com/errorific">@errorific</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Rust is a new language that had it's first stable 1.0 release in May. Aimed at being an alternative to languages like C, C++ and Go, it is strict and impure, but is much safer than those. It borrows ideas from functional languages, and pays some attention to the last few decades of research.</p>
+<p>We will walk through James' first month and a half with Rust, the triumphs of seeing it prevent bugs, the despair of fighting the borrow checker, and how well it works for some common tasks.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+            <a class="btn btn-xs" href="https://github.com/Errorific/haskell-script-examples" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8EZPuhYDRe8" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="panel-footer">
+    July 14, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830864/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Escaping Cabal Hell with Nix</title>
     <link href="http://talks.bfpg.org//talks/2015-06-09.nix.html" />
     <id>http://talks.bfpg.org//talks/2015-06-09.nix.html</id>
@@ -41,6 +141,12 @@
     <p>First, we'll introduce Nix, a purely functional package system, and highlight its advantages over widespread systems such as APT.</p>
 <p>Next, we'll gain some familiariarity with the Nix commands. Learn how to: search for, install, upgrade and remove packages.</p>
 <p>Finally, we'll learn how beat Cabal hell and accelerate your Haskell development with Nix. We'll set up Nix for Haskell development. Configure Nix environments containing all your favourite Haskell development tools. Most importantly, pull in library dependencies without recompiling all of hackage. Discover that there's no need to decide between per-project and shared sandboxes — you get to have your cake and eat it too!</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/mQd3s57n_2Y" frameborder="0" allowfullscreen></iframe>
@@ -82,6 +188,12 @@
   </div>
   <div class="panel-body">
     <p>Many applications leverage monad transformer stacks to control IO effects, handle error conditions, pass configurations, and more. As the requirements of these applications grow, the complexity of these transformer stacks can grow proportionally. If a specific monad transformer stack is used in type signatures, then small changes to the stack can result in large changes to the code. This talk will demonstrate tools from the mtl and the lens library that allow each function's type to describe the required parts of a transformer stack, without depending on the concrete stack itself.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/GZPup5Iuaqw" frameborder="0" allowfullscreen></iframe>
@@ -125,6 +237,12 @@
     <p>Following on from our introduction to dependent types in AGDA, Sean showed us around Ur and Ur/Web, a full stack web language and web framework with an extremely very rich type-system.</p>
 <p>Ur is a programming language in the tradition of ML and Haskell, but featuring a significantly richer type system. Ur is functional, pure, statically typed, and strict. Ur supports a powerful kind of metaprogramming based on row types.</p>
 <p>Ur/Web is Ur plus a special standard library and associated rules for parsing and optimization. Ur/Web supports construction of dynamic web applications backed by SQL databases. The signature of the standard library is such that well-typed Ur/Web programs &quot;don't go wrong&quot; in a very broad sense.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/iPl1_69Vrw0" frameborder="0" allowfullscreen></iframe>
@@ -163,6 +281,12 @@
   <div class="panel-body">
     <p>Exact real arithmetic allows us to do computations without worrying about precision or rounding. In contrast with arbitrary precision arithmetic, we only need to specify an output precision and the details for intermediate steps are handled automatically.</p>
 <p>In this talk we will implement exact real arithmetic in two very different ways. First, the &quot;fast binary Cauchy&quot; system amounts to representing each real as a function Natural -&gt; Rational, such that each successive output is a closer approximation to the true value than the last. The second system represents each real number as a continued fraction; an infinite tower of sums and reciprocals. Both systems benefit from a functional programming style and the resulting code is very simple to understand.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/LJQgYBQFtSE" frameborder="0" allowfullscreen></iframe>
@@ -201,6 +325,12 @@
   <div class="panel-body">
     <p>This talk outlines how a beginner taking the CIS 194 course can prepare to use Haskell in real world projects. Take away lessons include pitfalls to avoid, struggles one might face on the transition from learner to practitioner and how to contribute to the Haskell community.</p>
 <p>Roman is a software engineer at Red Hat, working on internal tools. His every day language is mainly Python. He has used XMonad for 6 years but never grokked how to configure the window manager and its components. Until now.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/NGD7I9K1bPo" frameborder="0" allowfullscreen></iframe>
@@ -243,6 +373,12 @@
   <div class="panel-body">
     <p>We'll show how to build evidence that a certain thing can be found in a list, and how to use this evidence to safely retrieve a different thing from some other suitably-indexed heterogeneous list.</p>
 <p>Finally, if we have time, we'll use what we just built to embed the simply-typed lambda calculus.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/7iAkFh9xOIc" frameborder="0" allowfullscreen></iframe>
@@ -285,6 +421,12 @@
   <div class="panel-body">
     <p>Wanting to make use of libraries written in other langauges (often C) is a common situation in high-level languages, and Haskell is no exception. This talk will introduce and demonstrate real-world use of Haskell's C foreign function interface (FFI), including how to deal with some common C idioms. We will examine the c2hs tool which simplifies bindings and review some other Haskell FFI tools.</p>
 <p>Attendees who are comfortable with Haskell syntax and have a passing familiarity with C (especially pointers) will get the most out of this presentation.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/TP0ApVPLc24" frameborder="0" allowfullscreen></iframe>
@@ -327,6 +469,12 @@
   <div class="panel-body">
     <p>Lets tuck into some term-indexed types!</p>
 <p>Well see what it means to reify definitional equality of terms as a type, and how to use equality to rewrite types. Well reinvent Sigma and Pi types, starting from the simple sums and products we all know and love.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/QyUVONbwHYE" frameborder="0" allowfullscreen></iframe>
@@ -334,89 +482,6 @@
   </div>
   <div class="panel-footer">
     March 24, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219030264/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Monads (CIS194 Wk 12)</title>
-    <link href="http://talks.bfpg.org//talks/2015-02-24.monads.html" />
-    <id>http://talks.bfpg.org//talks/2015-02-24.monads.html</id>
-    <published>2015-02-24T00:00:00Z</published>
-    <updated>2015-02-24T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Monads (CIS194 Wk 12)
-        <small>by Matt Peddie
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Monads (CIS194 Wk 12)</h2>
-      <p>
-        By Matt Peddie
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Over the last couple of yorgey lectures, we have seen how the Applicative class allows us to idiomatically handle computations which take place in some sort of &quot;special context&quot; -- for example, taking into account possible failure with Maybe, multiple possible outputs with [], consulting some sort of environment using ((-&gt;) e), or construct parsers using a &quot;combinator&quot; approach, as in the homework.</p>
-<p>However, so far we have only seen computations with a fixed structure, such as applying a data constructor to a fixed set of arguments. What if we don't know the structure of the computation in advance -- that is, we want to be able to decide what to do based on some intermediate results?</p>
-    <hr/>
-    <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ofz8zO8rjn0" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="panel-footer">
-    February 24, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219978846/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Stacking your Monads</title>
-    <link href="http://talks.bfpg.org//talks/2015-02-24.monad_transformers.html" />
-    <id>http://talks.bfpg.org//talks/2015-02-24.monad_transformers.html</id>
-    <published>2015-02-24T00:00:00Z</published>
-    <updated>2015-02-24T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Stacking your Monads
-        <small>by Ben Kolera
-          
-            (<a href="http://twitter.com/bkolera">@bkolera</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Stacking your Monads</h2>
-      <p>
-        By Ben Kolera
-        
-          (<a href="http://twitter.com/bkolera">@bkolera</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>A common hurdle in the journey to serious FP use is being able to make the jump from functional programming in the small to being able to write non-trivial applications that are easily configurable and clearly delineate side effects and error conditions.</p>
-<p>In this talk, we will introduce ExceptT and run through what you need to know to consume a monad transformer as a user. We'll then combine this with ReaderT for configuration and then look into the lovely MonadReader, MonadError and MonadIO typeclasses and how they make things even nicer.</p>
-<p>At the very least, with this knowledge you should start having a much easier time consuming effectful haskell APIs (e.g. Persistent, Snap) as they are heavily based around these ideas. At best, you'll be equipped to start writing non-trivial FP programs for fun and profit.</p>
-<p>The talk will be accompanied with a full-working program that you'll be able to tinker with and learn from outside of the talk; written in much the same style as the production haskell code written at iseek.</p>
-<p><a href="http://stackingyourmonads.benkolera.com/#/">Slides</a> | <a href="https://github.com/benkolera/talk-stacking-your-monads">Code</a></p>
-    <hr/>
-    <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/pzouxmWiemg" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="panel-footer">
-    February 24, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219978846/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></summary>
