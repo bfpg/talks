@@ -4,42 +4,31 @@ title: Planned Future Talks
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h2>May Meetup - 2015-04-12</h2>
+    <h2>August Meetup - 2015-08-11</h2>
   </div>
   <div class="panel-body">
-    <h2>Ur/Web - Sean Chalmers</h2>
-    <p>Following on from our introduction to dependent types in AGDA, Sean is going to show us around Ur and Ur/Web, a dependently typed langauge and full stack web framework.</p>
-    <p>Ur is a programming language in the tradition of ML and Haskell, but featuring a significantly richer type system. Ur is functional, pure, statically typed, and strict. Ur supports a powerful kind of metaprogramming based on row types.</p>
-    <p>Ur/Web is Ur plus a special standard library and associated rules for parsing and optimization. Ur/Web supports construction of dynamic web applications backed by SQL databases. The signature of the standard library is such that well-typed Ur/Web programs "don't go wrong" in a very broad sense. Not only do they not crash during particular page generations, but they also may not:</p>
-    <ul>
-      <li>Suffer from any kinds of code-injection attacks</li>
-      <li>Return invalid HTML</li>
-      <li>Contain dead intra-application links</li>
-      <li>Have mismatches between HTML forms and the fields expected by their handlers</li>
-      <li>Include client-side code that makes incorrect assumptions about the "AJAX"-style services that the remote web server provides</li>
-      <li>Attempt invalid SQL queries</li>
-      <li>Use improper marshaling or unmarshaling in communication with SQL databases or between browsers and web servers</li>
-    </ul>
-    <h2>Exact Real Arithmetic in Haskell - Mitchell Riley</h2>
-    <p>
-      Exact real arithmetic allows us to do computations without worrying
-      about precision or rounding. In contrast with arbitrary precision
-      arithmetic, we only need to specify an output precision and the
-      details for intermediate steps are handled automatically.
-    </p>
-    <p>
-      In this talk we will implement exact real arithmetic in two very
-      different ways. First, the "fast binary Cauchy" system amounts to
-      representing each real as a function Natural -> Rational, such that
-      each successive output is a closer approximation to the true value
-      than the last. The second system represents each real number as a
-      continued fraction; an infinite tower of sums and reciprocals. Both
-      systems benefit from a functional programming style and the resulting
-      code is very simple to understand.
-    </p>
+      <p>Tonight we've got two compiler talks to explore and demystify the tools and (somewhat untapped) power that we have at our fingertips when writing software in Scala and Haskell. Through these talks, you should come away with an appreciation of the information that is available from both compilers and maybe have an idea or two for a tool of your own. </p>
+
+      <p>Both talks will be appreciable to people of all skill levels; even if you don't entirely understand what's going on, you'll certainly come away with an appreciation of and excitement for the rich information we have about statically typed programs. :)</p>
+
+      <h2>Scalac Survival Guide - Jason Zaugg</h2>
+      <p>BIO: Jason Zaugg once tinkered with the Scala compiler, got hooked, and now works full time on the Scala language at Typesafe.</p>
+      <p>As a programmer, tinkering with the implementation of the very language you work with (and think in) a uniquely satisfying endeavour. Scala offers lots of avenues to try this: you can author compiler plugins to perform static analysis, use macros to generate boilerplate, or modify the compiler to fix bugs or implement your own pet feature. More generally, thinking about the meta-aspects of the language invariably lead to a fresh perspective and deeper understanding that benefit your regular coding, too.</p>
+
+      <p>But all of these tasks can at times seem daunting, infuriating, or out of reach. This talk will issue you with the map, compass, flashlight, and roll of duct tape that you need to embark on this journey. It is drawn from the tools and techniques that I use on a daily basis when I'm working on the compiler.</p>
+
+      <p>Bring a Scala 2.11.6 REPL along if you want to code along, or skim the Reflection and Macro guides if you want to get a head start on some of the concepts we'll touch upon, or check out or Hacker's and Contributing guide to plan your first pull request.</p>
+
+      <h2>The GHC API - Carlo Hamalainen</h2>
+
+      <p>In his free time, Carlo wrote a tool called ghc-imported-from to help leverage the information from the compiler in code that he was writing.</p>
+
+      <p>In this talk Carlo will talk us through his journey, from zero code to his completed tool and the parts of the GHC API that he used along the way.</p>
+
+      <p>By attending this talk, you should come away less fearful of the GHC API and maybe have a few ideas to add into tools of your own or add functionality to existing ones like ghc-mod. </p>
   </div>
   <div class="panel-footer">
-    <a href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830899/" target="_blank">
+    <a href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886013/" target="_blank">
       View on Meetup <i class="mdi-sm mdi-action-launch"></i>
     </a>
   </div>
