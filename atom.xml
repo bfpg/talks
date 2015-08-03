@@ -20,7 +20,7 @@
     <div class="visible-md-block visible-lg-block">
       <h2>
         Neophyte Rustacean
-        <small>by James Livingstone
+        <small>by James Livingston
           
             (<a href="http://twitter.com/doctau">@doctau</a>)
           
@@ -30,7 +30,7 @@
     <div class="visible-xs-block visible-sm-block">
       <h2>Neophyte Rustacean</h2>
       <p>
-        By James Livingstone
+        By James Livingston
         
           (<a href="http://twitter.com/doctau">@doctau</a>)
         
@@ -88,8 +88,8 @@
     </div>
   </div>
   <div class="panel-body">
-    <p>Rust is a new language that had it's first stable 1.0 release in May. Aimed at being an alternative to languages like C, C++ and Go, it is strict and impure, but is much safer than those. It borrows ideas from functional languages, and pays some attention to the last few decades of research.</p>
-<p>We will walk through James' first month and a half with Rust, the triumphs of seeing it prevent bugs, the despair of fighting the borrow checker, and how well it works for some common tasks.</p>
+    <p>After you've gone and done that haskell beginners course and learned to think functionally you go to work with giant ideas of writing perfect functional code and building a better world. Then the suit from accounting turns up and needs a script to put a csv in a database and they need it right now, so you betray your bright new ideas and reach for ruby/perl/python/bash/go to do it fast because you know how to do such things in that language fast.</p>
+<p>In this talk we'll be doing a code review of some simple haskell scripts that do common scripty tasks like taking input, reading things, printing things, calling webservices, reading csvs, and querying databases. Armed with these examples you should be prepared to introduce haskell to your workplace via dodgy scripts.</p>
     <div class="row" s>
         <div class="col-xs-12">
           
