@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -eu
+
+cabal sandbox init
+cabal install --only-dependencies
