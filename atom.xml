@@ -8,8 +8,61 @@
         <name>BFPG</name>
         <email>exec@lists.bfpg.org</email>
     </author>
-    <updated>2015-08-11T00:00:00Z</updated>
+    <updated>2015-09-08T00:00:00Z</updated>
     <entry>
+    <title>Typesafe SQL in Haskell</title>
+    <link href="http://talks.bfpg.org//talks/2015-09-08.opaleye.html" />
+    <id>http://talks.bfpg.org//talks/2015-09-08.opaleye.html</id>
+    <published>2015-09-08T00:00:00Z</published>
+    <updated>2015-09-08T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Typesafe SQL in Haskell
+        <small>by Ben Kolera
+          
+            (<a href="http://twitter.com/benkolera">@benkolera</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Typesafe SQL in Haskell</h2>
+      <p>
+        By Ben Kolera
+        
+          (<a href="http://twitter.com/benkolera">@benkolera</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>SQL is a wonderful and powerful language for querying relational data, but as developers we're often forced to trade off between safety, composability and/or being forced to use a subset of what SQL can actually do.</p>
+<p>In this talk we will examine Opaleye; a haskell DSL for interacting with Postgres that is both highly composable and will not generate SQL that fails at runtime if your haskell code compiles. Most impressively, it manages to do this while giving a DSL that still very much feels like and has the power of SQL (sorting, aggregation, unions, inner and outer joins).</p>
+<p>This talk will cross over some intermediate level topics (Profunctors, Arrows, Lenses) but it should handwave them enough for things to make sense. All you should really need is a knowledge of SQL and an appreciation for type safety and composability. :)</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="http://opaleye.benkolera.com/#/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+            <a class="btn btn-xs" href="https://github.com/benkolera/talk-opaleye/code" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/A0oVn-GXOok" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="panel-footer">
+    September  8, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886016/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Scalac Survival Guide</title>
     <link href="http://talks.bfpg.org//talks/2015-08-11.scalac_survival_guide.html" />
     <id>http://talks.bfpg.org//talks/2015-08-11.scalac_survival_guide.html</id>
@@ -439,54 +492,6 @@
     <hr/>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/NGD7I9K1bPo" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="panel-footer">
-    April 14, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219978892/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>A dependently-typed Agda taster - Part II</title>
-    <link href="http://talks.bfpg.org//talks/2015-04-14.agda_2.html" />
-    <id>http://talks.bfpg.org//talks/2015-04-14.agda_2.html</id>
-    <published>2015-04-14T00:00:00Z</published>
-    <updated>2015-04-14T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        A dependently-typed Agda taster - Part II
-        <small>by Matthew Brecknell
-          
-            (<a href="http://twitter.com/mbrcknl">@mbrcknl</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>A dependently-typed Agda taster - Part II</h2>
-      <p>
-        By Matthew Brecknell
-        
-          (<a href="http://twitter.com/mbrcknl">@mbrcknl</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>We'll show how to build evidence that a certain thing can be found in a list, and how to use this evidence to safely retrieve a different thing from some other suitably-indexed heterogeneous list.</p>
-<p>Finally, if we have time, we'll use what we just built to embed the simply-typed lambda calculus.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/7iAkFh9xOIc" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="panel-footer">

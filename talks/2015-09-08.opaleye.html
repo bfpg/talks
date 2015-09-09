@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>BFPG Talks - Stacking your Monads</title>
+        <title>BFPG Talks - Typesafe SQL in Haskell</title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/default.css" rel="stylesheet">
         <link href="../css/roboto.css" rel="stylesheet">
@@ -43,7 +43,7 @@
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
       <h2>
-        Stacking your Monads
+        Typesafe SQL in Haskell
         <small>by Ben Kolera
           
             (<a href="http://twitter.com/benkolera">@benkolera</a>)
@@ -52,7 +52,7 @@
       </h2>
     </div>
     <div class="visible-xs-block visible-sm-block">
-      <h2>Stacking your Monads</h2>
+      <h2>Typesafe SQL in Haskell</h2>
       <p>
         By Ben Kolera
         
@@ -62,27 +62,26 @@
     </div>
   </div>
   <div class="panel-body">
-    <p>A common hurdle in the journey to serious FP use is being able to make the jump from functional programming in the small to being able to write non-trivial applications that are easily configurable and clearly delineate side effects and error conditions.</p>
-<p>In this talk, we will introduce ExceptT and run through what you need to know to consume a monad transformer as a user. We'll then combine this with ReaderT for configuration and then look into the lovely MonadReader, MonadError and MonadIO typeclasses and how they make things even nicer.</p>
-<p>At the very least, with this knowledge you should start having a much easier time consuming effectful haskell APIs (e.g. Persistent, Snap) as they are heavily based around these ideas. At best, you'll be equipped to start writing non-trivial FP programs for fun and profit.</p>
-<p>The talk will be accompanied with a full-working program that you'll be able to tinker with and learn from outside of the talk; written in much the same style as the production haskell code written at iseek.</p>
+    <p>SQL is a wonderful and powerful language for querying relational data, but as developers we're often forced to trade off between safety, composability and/or being forced to use a subset of what SQL can actually do.</p>
+<p>In this talk we will examine Opaleye; a haskell DSL for interacting with Postgres that is both highly composable and will not generate SQL that fails at runtime if your haskell code compiles. Most impressively, it manages to do this while giving a DSL that still very much feels like and has the power of SQL (sorting, aggregation, unions, inner and outer joins).</p>
+<p>This talk will cross over some intermediate level topics (Profunctors, Arrows, Lenses) but it should handwave them enough for things to make sense. All you should really need is a knowledge of SQL and an appreciation for type safety and composability. :)</p>
     <div class="row" s>
         <div class="col-xs-12">
           
-            <a class="btn btn-xs" href="http://stackingyourmonads.benkolera.com/#/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+            <a class="btn btn-xs" href="http://opaleye.benkolera.com/#/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
           
           
-            <a class="btn btn-xs" href="https://github.com/benkolera/talk-stacking-your-monads" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
+            <a class="btn btn-xs" href="https://github.com/benkolera/talk-opaleye/code" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
           
         </div>
     </div>
     <hr />
     <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/pzouxmWiemg" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/A0oVn-GXOok" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="panel-footer">
-    February 24, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/219978846/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    September  8, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886016/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 
