@@ -34,7 +34,12 @@
     </div>
     <hr/>
     <div class="videoWrapper">
+      $if(ytid)$
       <iframe width="560" height="315" src="https://www.youtube.com/embed/$ytid$" frameborder="0" allowfullscreen></iframe>
+      $endif$
+      $if(vimeoid)$
+      <iframe src="https://player.vimeo.com/video/$vimeoid$?title=0" width="516" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      $endif$
     </div>
   </div>
   <div class="panel-footer">
