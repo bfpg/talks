@@ -40,19 +40,19 @@ main = hakyllWith config $ do
       >>= loadAndApplyTemplate "templates/default.html" talkCtx
       >>= relativizeUrls
 
-  create ["past.html"] $ do
+  match "past.html" $ do
     route idRoute
     compile $ do
       talks <- recentFirst =<< loadAll "talks/*"
       let talksCtx =
             listField "talks" talkCtx (return talks) <>
-            constField "title" "Past Talks"          <>
             defaultContext
 
-      makeItem ""
-        >>= loadAndApplyTemplate "templates/past.html" talksCtx
-        >>= loadAndApplyTemplate "templates/default.html" talksCtx
-        >>= relativizeUrls
+      getResourceBody
+         >>= applyAsTemplate talksCtx
+         >>= loadAndApplyTemplate "templates/panel.html"   talksCtx
+         >>= loadAndApplyTemplate "templates/default.html" talksCtx
+         >>= relativizeUrls
 
   -- http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html
   let rss name render' =
@@ -69,7 +69,7 @@ main = hakyllWith config $ do
   match "index.html" $ do
     route idRoute
     compile $ do
-      talks <- recentFirst =<< loadAll "talks/*"
+      talks <- fmap (take 10) . recentFirst =<< loadAll "talks/*"
       let indexCtx =
             listField "talks" talkCtx (return talks) <>
             defaultContext
