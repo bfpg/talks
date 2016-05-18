@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>BFPG Talks - Next Level MTL with Classy Optics</title>
+        <title>BFPG Talks - Recursion Patterns, Polymorphism, and the Prelude (CIS194 Wk 3)</title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/default.css" rel="stylesheet">
         <link href="../css/roboto.css" rel="stylesheet">
@@ -43,26 +43,24 @@
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
       <h2>
-        Next Level MTL with Classy Optics
-        <small>by George Wilson
-          
-            (<a href="http://twitter.com/GeorgeTalksCode">@GeorgeTalksCode</a>)
+        Recursion Patterns, Polymorphism, and the Prelude (CIS194 Wk 3)
+        <small>by Matthew Brecknell
           
         </small>
       </h2>
     </div>
     <div class="visible-xs-block visible-sm-block">
-      <h2>Next Level MTL with Classy Optics</h2>
+      <h2>Recursion Patterns, Polymorphism, and the Prelude (CIS194 Wk 3)</h2>
       <p>
-        By George Wilson
-        
-          (<a href="http://twitter.com/GeorgeTalksCode">@GeorgeTalksCode</a>)
+        By Matthew Brecknell
         
       </p>
     </div>
   </div>
   <div class="panel-body">
-    <p>Many applications leverage monad transformer stacks to control IO effects, handle error conditions, pass configurations, and more. As the requirements of these applications grow, the complexity of these transformer stacks can grow proportionally. If a specific monad transformer stack is used in type signatures, then small changes to the stack can result in large changes to the code. This talk will demonstrate tools from the mtl and the lens library that allow each function's type to describe the required parts of a transformer stack, without depending on the concrete stack itself.</p>
+    <p>While completing HW 2, you probably spent a lot of time writing explicitly recursive functions. At this point, you might think that’s what Haskell programmers spend most of their time doing. In fact, experienced Haskell programmers hardly ever write recursive functions!</p>
+<p>How is this possible? The key is to notice that although recursive functions can theoretically do pretty much anything, in practice there are certain common patterns that come up over and over again. By abstracting out these patterns into library functions, programmers can leave the low-level details of actually doing recursion to these functions, and think about problems at a higher level—that’s the goal of wholemeal programming.</p>
+<p>This lecture will cover these recursive patterns, the haskell abstractions that make them possible and where to find these library functions in the prelude. We'll also take a tangent into the different between total and partial functions and why you should care about the difference.</p>
     <div class="row" s>
         <div class="col-xs-12">
           
@@ -72,13 +70,13 @@
     <hr />
     <div class="videoWrapper">
       
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/GZPup5Iuaqw" frameborder="0" allowfullscreen></iframe>
       
+      <iframe src="https://player.vimeo.com/video/92976563?title=0" width="516" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       
     </div>
   </div>
   <div class="panel-footer">
-    June  9, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830861/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    April 22, 2014 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/166867022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 
