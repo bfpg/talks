@@ -3,4 +3,5 @@
 /_site/
 /cabal.sandbox.config
 /dist/
+/.stack-work/
 shell.nix
