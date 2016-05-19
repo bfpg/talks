@@ -1,16 +1,34 @@
 BFPG Talks Static Site
 ======================
 
-This hakyll source generates the static HTML that is show at http://talks.bfpg.org. This static site is served from this gh-page branch: https://github.com/bfpg/talks/tree/gh-pages
+[![Build Status](https://travis-ci.org/bfpg/talks.svg?branch=master)](https://travis-ci.org/bfpg/talks)
 
-To setup a dev environment:
+This [Hakyll](https://jaspervdj.be/hakyll/) source generates the static HTML
+that is shown at [http://talks.bfpg.org](http://talks.bfpg.org).
+
+The static site is served from [GitHub Pages](https://github.com/bfpg/talks/tree/gh-pages).
+
+Dev environment setup
+---------------------
+
+Before running the following,
+[install stack](http://docs.haskellstack.org/en/stable/README/#how-to-install)
+if you haven't already.
+
 ```
-git clone git@github.com:bfpg/talks.git 
-git clone git@github.com:bfpg/talks.git talks-deploy
-cd talks-deploy
-git checkout gh-pages
-cd ../talks
-cabal sandbox init
-cabal install --only-dependencies
-cabal run watch # <-- For a dev build loop
-cabal run deploy # <-- To build the code and push it to the remote gh-pages branch
+git clone git@github.com:bfpg/talks.git bfpg-talks
+cd bfpg-talks
+
+stack build
+stack exec site build # <-- Generate files in ./_site/
+stack exec site watch # <-- For a dev build loop
+```
+
+Contributing
+------------
+
+Fork [bfpg/talks](https://github.com/bfpg/talks), make your changes on `master`
+and submit a PR.
+
+The [Travis CI job](https://travis-ci.org/bfpg/talks) will build the site and
+publish to `gh-pages` once your commit is merged.

@@ -4,7 +4,7 @@ import Hakyll
 import Text.Pandoc.Options
 
 main :: IO ()
-main = hakyllWith config $ do
+main = hakyllWith defaultConfiguration $ do
   match "images/*" $ do
     route   idRoute
     compile copyFileCompiler
@@ -86,11 +86,6 @@ talkCtx :: Context String
 talkCtx =
   dateField "date" "%B %e, %Y" <>
   defaultContext
-
-config :: Configuration
-config = defaultConfiguration
-  { deployCommand = "cp -r ./_site/ ../talks-deploy && cd ../talks-deploy && git add -f . && git commit -m 'Deploying site' && git push"
-  }
 
 feedConfiguration :: FeedConfiguration
 feedConfiguration = FeedConfiguration
