@@ -2,6 +2,7 @@
 import Data.Monoid         ((<>))
 import Hakyll
 import Text.Pandoc.Options
+import Data.List           (intercalate)
 
 main :: IO ()
 main = hakyllWith defaultConfiguration $ do
@@ -27,7 +28,9 @@ main = hakyllWith defaultConfiguration $ do
         >>= relativizeUrls
 
   match "talks/*" $ do
-    route $ setExtension "html"
+    -- route $ setExtension "html"
+    -- route $ gsubRoute "talks/[0-9]{4}-[0-9]{2}-[0-9]{2}-" (const "a") `composeRoutes` setExtension "html"
+    route $ customRoute (\x -> rewriteTalkUrl $ toFilePath x) `composeRoutes` setExtension "html"
     compile $ pandocCompilerWith
       (defaultHakyllReaderOptions
         { readerSmart = False
@@ -86,6 +89,12 @@ talkCtx :: Context String
 talkCtx =
   dateField "date" "%B %e, %Y" <>
   defaultContext
+
+rewriteTalkUrl :: FilePath -> FilePath
+rewriteTalkUrl s =
+  intercalate "-" (take 3 splitUrl) ++ "." ++ intercalate "-" (drop 3 splitUrl)
+  where
+    splitUrl = splitAll "-" s
 
 feedConfiguration :: FeedConfiguration
 feedConfiguration = FeedConfiguration
