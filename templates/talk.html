@@ -33,14 +33,16 @@
         </div>
     </div>
     <hr/>
+    $if(ytid)$
     <div class="videoWrapper">
-      $if(ytid)$
       <iframe width="560" height="315" src="https://www.youtube.com/embed/$ytid$" frameborder="0" allowfullscreen></iframe>
-      $endif$
-      $if(vimeoid)$
-      <iframe src="https://player.vimeo.com/video/$vimeoid$?title=0" width="516" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      $endif$
     </div>
+    $endif$
+    $if(vimeoid)$
+    <div class="videoWrapper">
+      <iframe src="https://player.vimeo.com/video/$vimeoid$?title=0" width="516" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    $endif$
   </div>
   <div class="panel-footer">
     $date$ - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/$event$/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
