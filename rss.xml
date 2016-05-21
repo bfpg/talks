@@ -7,8 +7,57 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 19 Apr 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 10 May 2016 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Functional Programming in Scala Chapters 7 & 8</title>
+    <link>http://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Functional Programming in Scala Chapters 7 & 8
+        <small>by Matt Newman
+          
+            (<a href="http://twitter.com/mdjnewman">@mdjnewman</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Functional Programming in Scala Chapters 7 & 8</h2>
+      <p>
+        By Matt Newman
+        
+          (<a href="http://twitter.com/mdjnewman">@mdjnewman</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Firstly, we delve into writing a library for doing parallel computation in a purely functional way. This gives us a chance not only to examine parallelism, but to also to examine how to write modular functional libraries by separating the description of a computation (via algebras) vs actually running them.</p>
+<p>Secondly, we will write a property based testing library through which we can write high level specifications of the laws that we expect to hold for our program and have other machinery generate test data and provide counterexamples if our properties fail. Through this journey, we will start seeing the similarities between this API design and our parallel execution library, which will allow us to start teasing out the essence of writing purely functional libraries.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="http://mdjnewman.github.io/talk-fp-in-scala-7-8/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+        </div>
+    </div>
+    <hr/>
+    
+    
+  </div>
+  <div class="panel-footer">
+    May 10, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/230099578/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 10 May 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Functional Programming in Scala Chapters 5 & 6</title>
     <link>http://talks.bfpg.org//talks/2016-04-19.talk_fp_in_scala_5_6.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -441,54 +490,6 @@
 ]]></description>
     <pubDate>Tue, 10 Nov 2015 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2015-11-10.swift_and_rx.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Initial and Final Encodings</title>
-    <link>http://talks.bfpg.org//talks/2015-11-10.initial_and_final_encodings.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Initial and Final Encodings
-        <small>by Matt Peddie
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Initial and Final Encodings</h2>
-      <p>
-        By Matt Peddie
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Representing data as code and vice versa has a long history in functional programming and language theory. I'll present some techniques for changing how functions and data are represented that have significant engineering impact. The main technique I hope to communicate is the 'finally tagless' approach to EDSL implementation (and the associated engineering tradeoffs).</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="https://peddie.github.io/encodings/encodings.html" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-        </div>
-    </div>
-    <hr/>
-    
-    <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VT16jNk27I0" frameborder="0" allowfullscreen></iframe>
-    </div>
-    
-    
-  </div>
-  <div class="panel-footer">
-    November 10, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226040468/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 10 Nov 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-11-10.initial_and_final_encodings.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
