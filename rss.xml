@@ -7,8 +7,154 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Thu, 13 Oct 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Swift & Rx</title>
+    <link>http://talks.bfpg.org//talks/2015-11-10.swift_and_rx.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Swift & Rx
+        <small>by Harish Subramanium
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Swift & Rx</h2>
+      <p>
+        By Harish Subramanium
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Making iOS applications can be a tricky mess of callbacks and fiddly resource deallocation. In this talk we will look at swift and the swift reactive extensions to see how functional programming can tame these challenges.</p>
+<p>This talk will be code example focused but will require no prior knowledge of iOS dev or Rx.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xMDarHcjPf0" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+  </div>
+  <div class="panel-footer">
+    November 10, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226040468/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 10 Nov 2015 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2015-11-10.swift_and_rx.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>Initial and Final Encodings</title>
+    <link>http://talks.bfpg.org//talks/2015-11-10.initial_and_final_encodings.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Initial and Final Encodings
+        <small>by Matt Peddie
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Initial and Final Encodings</h2>
+      <p>
+        By Matt Peddie
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Representing data as code and vice versa has a long history in functional programming and language theory. I'll present some techniques for changing how functions and data are represented that have significant engineering impact. The main technique I hope to communicate is the 'finally tagless' approach to EDSL implementation (and the associated engineering tradeoffs).</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="https://peddie.github.io/encodings/encodings.html" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VT16jNk27I0" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+  </div>
+  <div class="panel-footer">
+    November 10, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226040468/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 10 Nov 2015 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2015-11-10.initial_and_final_encodings.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>Zippers</title>
+    <link>http://talks.bfpg.org//talks/2015-10-13.zippers.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Zippers
+        <small>by George Wilson
+          
+            (<a href="http://twitter.com/georgetalkscode">@georgetalkscode</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Zippers</h2>
+      <p>
+        By George Wilson
+        
+          (<a href="http://twitter.com/georgetalkscode">@georgetalkscode</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Immutable data-structures are the bread and butter of functional programming. Advantages of immutability include the persistence of old versions, the thread-safety, and the ability to reason about these structures. However, repeatedly modifying data deep within a nested immutable structure can have severe performance costs.</p>
+<p>Structures known as 'zippers' allow for efficient traversal and modification of immutable data-structures. In this beginner-to-intermediate level talk, zippers will be motivated and introduced in Scala. A successful practical application of zippers in the Argonaut JSON library will be examined.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/woK7ntZRwXQ" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+  </div>
+  <div class="panel-footer">
+    October 13, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/225601844/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 13 Oct 2015 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2015-10-13.zippers.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Parsers from Scratch</title>
     <link>http://talks.bfpg.org//talks/2015-10-13.parsers_from_scratch.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -54,11 +200,11 @@
     </div>
   </div>
   <div class="panel-footer">
-    October 13, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/225601844/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    October 13, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/225601844/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
-    <pubDate>Thu, 13 Oct 2016 00:00:00 UT</pubDate>
+    <pubDate>Tue, 13 Oct 2015 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2015-10-13.parsers_from_scratch.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
@@ -385,155 +531,6 @@
 ]]></description>
     <pubDate>Tue, 09 Jun 2015 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2015-06-09.nix.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Next Level MTL with Classy Optics</title>
-    <link>http://talks.bfpg.org//talks/2015-06-09.next_level_mtl.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Next Level MTL with Classy Optics
-        <small>by George Wilson
-          
-            (<a href="http://twitter.com/GeorgeTalksCode">@GeorgeTalksCode</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Next Level MTL with Classy Optics</h2>
-      <p>
-        By George Wilson
-        
-          (<a href="http://twitter.com/GeorgeTalksCode">@GeorgeTalksCode</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Many applications leverage monad transformer stacks to control IO effects, handle error conditions, pass configurations, and more. As the requirements of these applications grow, the complexity of these transformer stacks can grow proportionally. If a specific monad transformer stack is used in type signatures, then small changes to the stack can result in large changes to the code. This talk will demonstrate tools from the mtl and the lens library that allow each function's type to describe the required parts of a transformer stack, without depending on the concrete stack itself.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/GZPup5Iuaqw" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    June  9, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830861/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 09 Jun 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-06-09.next_level_mtl.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Ur/Web</title>
-    <link>http://talks.bfpg.org//talks/2015-05-12.urweb.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Ur/Web
-        <small>by Sean Chalmers
-          
-            (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Ur/Web</h2>
-      <p>
-        By Sean Chalmers
-        
-          (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Following on from our introduction to dependent types in AGDA, Sean showed us around Ur and Ur/Web, a full stack web language and web framework with an extremely very rich type-system.</p>
-<p>Ur is a programming language in the tradition of ML and Haskell, but featuring a significantly richer type system. Ur is functional, pure, statically typed, and strict. Ur supports a powerful kind of metaprogramming based on row types.</p>
-<p>Ur/Web is Ur plus a special standard library and associated rules for parsing and optimization. Ur/Web supports construction of dynamic web applications backed by SQL databases. The signature of the standard library is such that well-typed Ur/Web programs &quot;don't go wrong&quot; in a very broad sense.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/iPl1_69Vrw0" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    May 12, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830899/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 12 May 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-05-12.urweb.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Exact Real Arithmetic in Haskell</title>
-    <link>http://talks.bfpg.org//talks/2015-05-12.exact_real_arithmetic.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Exact Real Arithmetic in Haskell
-        <small>by Mitchell Riley
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Exact Real Arithmetic in Haskell</h2>
-      <p>
-        By Mitchell Riley
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Exact real arithmetic allows us to do computations without worrying about precision or rounding. In contrast with arbitrary precision arithmetic, we only need to specify an output precision and the details for intermediate steps are handled automatically.</p>
-<p>In this talk we will implement exact real arithmetic in two very different ways. First, the &quot;fast binary Cauchy&quot; system amounts to representing each real as a function Natural -&gt; Rational, such that each successive output is a closer approximation to the true value than the last. The second system represents each real number as a continued fraction; an infinite tower of sums and reciprocals. Both systems benefit from a functional programming style and the resulting code is very simple to understand.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/LJQgYBQFtSE" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    May 12, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830899/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 12 May 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-05-12.exact_real_arithmetic.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
