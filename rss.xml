@@ -7,8 +7,117 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 09 Feb 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Mar 2016 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Functional Programming in Scala Chapters 3 & 4</title>
+    <link>http://talks.bfpg.org//talks/2016-03-08.talk_fp_in_scala_3_4.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Functional Programming in Scala Chapters 3 & 4
+        <small>by Sean Chalmers
+          
+            (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Functional Programming in Scala Chapters 3 & 4</h2>
+      <p>
+        By Sean Chalmers
+        
+          (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p><em>Chapter 3: Functional Data Structures</em></p>
+<p>In this chapter, we'll learn the concept of functional data structures and how to work with them. We'll use this as an opportunity to introduce how data types are defined in functional programming, learn about the related technique of pattern matching, and get practice writing and generalizing pure functions.</p>
+<p><em>Chapter 4: Functional Error Handling</em></p>
+<p>In this chapter, we'll learn the basic principles for raising and handling errors functionally. The big idea is that we can represent failures and exceptions with ordinary values, and we can write higher-order functions that abstract out common patterns of error handling and recovery.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="https://github.com/mankyKitty/fpis-ch3-4-talk" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+        </div>
+    </div>
+    <hr/>
+    
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SIQHiTK5Qi8" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    
+  </div>
+  <div class="panel-footer">
+    March  8, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168562/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 08 Mar 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-03-08.talk_fp_in_scala_3_4.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>A slideshow toolchain with ReST, Pandoc and LaTeX Beamer</title>
+    <link>http://talks.bfpg.org//talks/2016-03-08.a_slideshow_toolchain_with_rest_pandoc_and_latex_beamer.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        A slideshow toolchain with ReST, Pandoc and LaTeX Beamer
+        <small>by Fraser Tweedale
+          
+            (<a href="http://twitter.com/hackuador">@hackuador</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>A slideshow toolchain with ReST, Pandoc and LaTeX Beamer</h2>
+      <p>
+        By Fraser Tweedale
+        
+          (<a href="http://twitter.com/hackuador">@hackuador</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Giving technical presentations is a worthwhile and satisfying endeavour, but producing a quality slide deck can be a frustrating and time consuming activity. It needn't be.</p>
+<p>In this talk I will show you my slide toolchain which, in brief, turns ReStructuredText (a lightweight markup format) into a PDF via Pandoc (a &quot;universal document converter&quot; written in Haskell), allowing me to focus on the structure and content of my presentations and not worry about formatting.</p>
+<p>We will cover basic formatting, math, code, images, Unicode, foreign scripts, slide appearance and themes, and how to escape from ReST and access the full power of LaTeX when needed. There will also be a brief detour into Pandoc internals and a discussion of ways to vary the toolchain for alternative markup language preferences or output formats.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="https://github.com/frasertweedale/talks/tree/master/20160308-bfpg-pandoc-slides" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+        </div>
+    </div>
+    <hr/>
+    
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vE7cNe44l-4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    
+  </div>
+  <div class="panel-footer">
+    March  8, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168562/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 08 Mar 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-03-08.a_slideshow_toolchain_with_rest_pandoc_and_latex_beamer.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Functional Programming in Scala Chapters 1 & 2</title>
     <link>http://talks.bfpg.org//talks/2016-02-09.talk_fp_in_scala_1_2.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -396,117 +505,6 @@
 ]]></description>
     <pubDate>Tue, 13 Oct 2015 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2015-10-13.parsers_from_scratch.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Typesafe SQL in Haskell</title>
-    <link>http://talks.bfpg.org//talks/2015-09-08.opaleye.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Typesafe SQL in Haskell
-        <small>by Ben Kolera
-          
-            (<a href="http://twitter.com/benkolera">@benkolera</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Typesafe SQL in Haskell</h2>
-      <p>
-        By Ben Kolera
-        
-          (<a href="http://twitter.com/benkolera">@benkolera</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>SQL is a wonderful and powerful language for querying relational data, but as developers we're often forced to trade off between safety, composability and/or being forced to use a subset of what SQL can actually do.</p>
-<p>In this talk we will examine Opaleye; a haskell DSL for interacting with Postgres that is both highly composable and will not generate SQL that fails at runtime if your haskell code compiles. Most impressively, it manages to do this while giving a DSL that still very much feels like and has the power of SQL (sorting, aggregation, unions, inner and outer joins).</p>
-<p>This talk will cross over some intermediate level topics (Profunctors, Arrows, Lenses) but it should handwave them enough for things to make sense. All you should really need is a knowledge of SQL and an appreciation for type safety and composability. :)</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="http://opaleye.benkolera.com/#/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-            <a class="btn btn-xs" href="https://github.com/benkolera/talk-opaleye/tree/master/code" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
-          
-        </div>
-    </div>
-    <hr/>
-    
-    <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/A0oVn-GXOok" frameborder="0" allowfullscreen></iframe>
-    </div>
-    
-    
-  </div>
-  <div class="panel-footer">
-    September  8, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886016/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 08 Sep 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-09-08.opaleye.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Scalac Survival Guide</title>
-    <link>http://talks.bfpg.org//talks/2015-08-11.scalac_survival_guide.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Scalac Survival Guide
-        <small>by Jason Zaugg
-          
-            (<a href="http://twitter.com/retronym">@retronym</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Scalac Survival Guide</h2>
-      <p>
-        By Jason Zaugg
-        
-          (<a href="http://twitter.com/retronym">@retronym</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>BIO: Jason Zaugg once tinkered with the Scala compiler, got hooked, and now works full time on the Scala language at Typesafe.</p>
-<p>As a programmer, tinkering with the implementation of the very language you work with (and think in) a uniquely satisfying endeavour. Scala offers lots of avenues to try this: you can author compiler plugins to perform static analysis, use macros to generate boilerplate, or modify the compiler to fix bugs or implement your own pet feature. More generally, thinking about the meta-aspects of the language invariably lead to a fresh perspective and deeper understanding that benefit your regular coding, too.</p>
-<p>But all of these tasks can at times seem daunting, infuriating, or out of reach. This talk will issue you with the map, compass, flashlight, and roll of duct tape that you need to embark on this journey. It is drawn from the tools and techniques that I use on a daily basis when I'm working on the compiler.</p>
-<p>Bring a Scala 2.11.6 REPL along if you want to code along, or skim the Reflection and Macro guides if you want to get a head start on some of the concepts we'll touch upon, or check out or Hacker's and Contributing guide to plan your first pull request.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-            <a class="btn btn-xs" href="https://github.com/retronym/scalac-survival-guide" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
-          
-        </div>
-    </div>
-    <hr/>
-    
-    <div class="videoWrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/06oP5IXWveM" frameborder="0" allowfullscreen></iframe>
-    </div>
-    
-    
-  </div>
-  <div class="panel-footer">
-    August 11, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886013/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 11 Aug 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-08-11.scalac_survival_guide.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
