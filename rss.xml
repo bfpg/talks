@@ -7,8 +7,110 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 19 Jan 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Feb 2016 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Functional Programming in Scala Chapters 1 & 2</title>
+    <link>http://talks.bfpg.org//talks/2016-02-09.talk_fp_in_scala_1_2.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Functional Programming in Scala Chapters 1 & 2
+        <small>by Ben Kolera
+          
+            (<a href="http://twitter.com/benkolera">@benkolera</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Functional Programming in Scala Chapters 1 & 2</h2>
+      <p>
+        By Ben Kolera
+        
+          (<a href="http://twitter.com/benkolera">@benkolera</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>This is the first instalment of following through the FP in Scala book as part of our meetups.</p>
+<p>Chapter 1 introduces the essence of functional programming and why we should care about it.</p>
+<p>Chapter 2 is a crash course in scala syntax that will get you up and running ready to play for the next chapters.</p>
+<p>The book has exercises in it: we're going to have time at the hack night for people to come in, work on and get help if they need it.</p>
+<p>If you are planning to follow along, I'd highly recommend buying the (e)book and reading along: you'll learn better if you read and watch the talks.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+            <a class="btn btn-xs"href="https://github.com/benkolera/talk-fp-in-scala-1-2" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
+          
+          
+        </div>
+    </div>
+    <hr/>
+    
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Sj12uS1Oc48" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    
+  </div>
+  <div class="panel-footer">
+    February  9, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/227857530/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 09 Feb 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-02-09.talk_fp_in_scala_1_2.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>Haskell at Facebook</title>
+    <link>http://talks.bfpg.org//talks/2016-02-09.haskell_at_facebook.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Haskell at Facebook
+        <small>by Katie Miller
+          
+            (<a href="http://twitter.com/codemiller">@codemiller</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Haskell at Facebook</h2>
+      <p>
+        By Katie Miller
+        
+          (<a href="http://twitter.com/codemiller">@codemiller</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Katie is back in town and going to talk to us about something though at this point I'm not sure what. Given that she's been working at facebook in one of their Haskell teams I'm sure that will be awesome! :)</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    <hr/>
+    
+    
+  </div>
+  <div class="panel-footer">
+    February  9, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/227857530/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 09 Feb 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-02-09.haskell_at_facebook.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Unravelling 'bound'</title>
     <link>http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -30,8 +132,10 @@
     </div>
   </div>
   <div class="panel-body">
-    <p>This talk aims to be a very accessible introduction to one of the most popular modern functional programming languages: Scala. Even those who have never come into contact with functional programming before should find real benefits within - particularly those who work with Java. Scala is a popular programming language which attempts to combine features from both object-oriented and functional programming. As Scala compiles to JVM bytecode, it is compatible with existing codebases written in other JVM languages, such as Java.</p>
-<p>This talk will demonstrate some beneficial features of Scala, focusing on those which lend themselves to a functional style of program construction. These features include pattern matching, algebraic datatypes, and Scala's focus on immutable data.</p>
+    <p>Haskell makes it easy to write embedded domain specific languages (EDSLs).</p>
+<p>Making the lamba calculus - variables, lambda abstraction and function application - part of our EDSLs gives us the ability to abstract and reuse fragments of programs in our EDSL, but can also add significant complexity to the implementation of the EDSL.</p>
+<p>The <code>bound</code> library greatly simplifies this for us. This means we can add some functionality to our EDSL very cheaply, or possibly that it solves a problem we didn't know we had.</p>
+<p>This talk will walk through why having the lambda calculus as part of your EDSL is a good thing, how to make that happen using <code>bound</code>, and some of the fun we can once we've done that.</p>
     <div class="row" s>
         <div class="col-xs-12">
           
@@ -39,10 +143,8 @@
         </div>
     </div>
     <hr/>
-    <div class="videoWrapper">
-      
-      
-    </div>
+    
+    
   </div>
   <div class="panel-footer">
     January 19, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -84,10 +186,8 @@
         </div>
     </div>
     <hr/>
-    <div class="videoWrapper">
-      
-      
-    </div>
+    
+    
   </div>
   <div class="panel-footer">
     January 19, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -129,12 +229,12 @@
         </div>
     </div>
     <hr/>
+    
     <div class="videoWrapper">
-      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/xMDarHcjPf0" frameborder="0" allowfullscreen></iframe>
-      
-      
     </div>
+    
+    
   </div>
   <div class="panel-footer">
     November 10, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226040468/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -177,12 +277,12 @@
         </div>
     </div>
     <hr/>
+    
     <div class="videoWrapper">
-      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/VT16jNk27I0" frameborder="0" allowfullscreen></iframe>
-      
-      
     </div>
+    
+    
   </div>
   <div class="panel-footer">
     November 10, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226040468/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -228,12 +328,12 @@
         </div>
     </div>
     <hr/>
+    
     <div class="videoWrapper">
-      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/woK7ntZRwXQ" frameborder="0" allowfullscreen></iframe>
-      
-      
     </div>
+    
+    
   </div>
   <div class="panel-footer">
     October 13, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/225601844/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -282,12 +382,12 @@
         </div>
     </div>
     <hr/>
+    
     <div class="videoWrapper">
-      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/YNGGUvP3Egg" frameborder="0" allowfullscreen></iframe>
-      
-      
     </div>
+    
+    
   </div>
   <div class="panel-footer">
     October 13, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/225601844/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -338,12 +438,12 @@
         </div>
     </div>
     <hr/>
+    
     <div class="videoWrapper">
-      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/A0oVn-GXOok" frameborder="0" allowfullscreen></iframe>
-      
-      
     </div>
+    
+    
   </div>
   <div class="panel-footer">
     September  8, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886016/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -393,12 +493,12 @@
         </div>
     </div>
     <hr/>
+    
     <div class="videoWrapper">
-      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/06oP5IXWveM" frameborder="0" allowfullscreen></iframe>
-      
-      
     </div>
+    
+    
   </div>
   <div class="panel-footer">
     August 11, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886013/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
@@ -407,115 +507,6 @@
 ]]></description>
     <pubDate>Tue, 11 Aug 2015 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2015-08-11.scalac_survival_guide.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>The GHC API</title>
-    <link>http://talks.bfpg.org//talks/2015-08-11.ghc_api.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        The GHC API
-        <small>by Carlo Hamalainen
-          
-            (<a href="http://twitter.com/CarloHamalainen">@CarloHamalainen</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>The GHC API</h2>
-      <p>
-        By Carlo Hamalainen
-        
-          (<a href="http://twitter.com/CarloHamalainen">@CarloHamalainen</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>In his free time, Carlo wrote a tool called ghc-imported-from to help leverage the information from the compiler in code that he was writing.</p>
-<p>In this talk Carlo will talk us through his journey, from zero code to his completed tool and the parts of the GHC API that he used along the way.</p>
-<p>You should come away less fearful of the GHC API and maybe have a few ideas to add into tools of your own or add functionality to existing ones like ghc-mod.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="https://github.com/bfpg/bfpg-2015-08/blob/master/using-the-ghc-api/Slides.pdf" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-            <a class="btn btn-xs" href="https://github.com/bfpg/bfpg-2015-08" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ppVz1YLKXzI" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    August 11, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221886013/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 11 Aug 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-08-11.ghc_api.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Neophyte Rustacean</title>
-    <link>http://talks.bfpg.org//talks/2015-07-14.neophyte_rustacean.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Neophyte Rustacean
-        <small>by James Livingston
-          
-            (<a href="http://twitter.com/doctau">@doctau</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Neophyte Rustacean</h2>
-      <p>
-        By James Livingston
-        
-          (<a href="http://twitter.com/doctau">@doctau</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Rust is a new language that had it's first stable 1.0 release in May. Aimed at being an alternative to languages like C, C++ and Go, it is strict and impure, but is much safer than those. It borrows ideas from functional languages, and pays some attention to the last few decades of research.</p>
-<p>We will walk through James' first month and a half with Rust, the triumphs of seeing it prevent bugs, the despair of fighting the borrow checker, and how well it works for some common tasks.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="http://slides.com/doctau/rust-intro/" target="_blank">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lNDevmk1MbE" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    July 14, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830864/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 14 Jul 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-07-14.neophyte_rustacean.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
