@@ -8,13 +8,58 @@
         <name>BFPG</name>
         <email>exec@lists.bfpg.org</email>
     </author>
-    <updated>2016-01-16T00:00:00Z</updated>
+    <updated>2016-01-19T00:00:00Z</updated>
     <entry>
+    <title>Unravelling 'bound'</title>
+    <link href="http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html" />
+    <id>http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html</id>
+    <published>2016-01-19T00:00:00Z</published>
+    <updated>2016-01-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Unravelling 'bound'
+        <small>by David Laing
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Unravelling 'bound'</h2>
+      <p>
+        By David Laing
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>This talk aims to be a very accessible introduction to one of the most popular modern functional programming languages: Scala. Even those who have never come into contact with functional programming before should find real benefits within - particularly those who work with Java. Scala is a popular programming language which attempts to combine features from both object-oriented and functional programming. As Scala compiles to JVM bytecode, it is compatible with existing codebases written in other JVM languages, such as Java.</p>
+<p>This talk will demonstrate some beneficial features of Scala, focusing on those which lend themselves to a functional style of program construction. These features include pattern matching, algebraic datatypes, and Scala's focus on immutable data.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      
+      
+    </div>
+  </div>
+  <div class="panel-footer">
+    January 19, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Scala: More than just a better Java</title>
     <link href="http://talks.bfpg.org//talks/2016-01-19.scala_more_than_just_a_better_java.html" />
     <id>http://talks.bfpg.org//talks/2016-01-19.scala_more_than_just_a_better_java.html</id>
-    <published>2016-01-16T00:00:00Z</published>
-    <updated>2016-01-16T00:00:00Z</updated>
+    <published>2016-01-19T00:00:00Z</published>
+    <updated>2016-01-19T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -49,7 +94,7 @@
     </div>
   </div>
   <div class="panel-footer">
-    January 16, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    January 19, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></summary>
@@ -464,59 +509,6 @@
     <div class="videoWrapper">
       
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lNDevmk1MbE" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    July 14, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830864/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Scripting with Haskell</title>
-    <link href="http://talks.bfpg.org//talks/2015-07-14.haskell_scripting.html" />
-    <id>http://talks.bfpg.org//talks/2015-07-14.haskell_scripting.html</id>
-    <published>2015-07-14T00:00:00Z</published>
-    <updated>2015-07-14T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Scripting with Haskell
-        <small>by Christopher McKay
-          
-            (<a href="http://twitter.com/errorific">@errorific</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Scripting with Haskell</h2>
-      <p>
-        By Christopher McKay
-        
-          (<a href="http://twitter.com/errorific">@errorific</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>After you've gone and done that haskell beginners course and learned to think functionally you go to work with giant ideas of writing perfect functional code and building a better world. Then the suit from accounting turns up and needs a script to put a csv in a database and they need it right now, so you betray your bright new ideas and reach for ruby/perl/python/bash/go to do it fast because you know how to do such things in that language fast.</p>
-<p>In this talk we'll be doing a code review of some simple haskell scripts that do common scripty tasks like taking input, reading things, printing things, calling webservices, reading csvs, and querying databases. Armed with these examples you should be prepared to introduce haskell to your workplace via dodgy scripts.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-            <a class="btn btn-xs" href="https://github.com/Errorific/haskell-script-examples" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/8EZPuhYDRe8" frameborder="0" allowfullscreen></iframe>
       
       
     </div>

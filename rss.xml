@@ -7,8 +7,53 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Sat, 16 Jan 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Jan 2016 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Unravelling 'bound'</title>
+    <link>http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Unravelling 'bound'
+        <small>by David Laing
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Unravelling 'bound'</h2>
+      <p>
+        By David Laing
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>This talk aims to be a very accessible introduction to one of the most popular modern functional programming languages: Scala. Even those who have never come into contact with functional programming before should find real benefits within - particularly those who work with Java. Scala is a popular programming language which attempts to combine features from both object-oriented and functional programming. As Scala compiles to JVM bytecode, it is compatible with existing codebases written in other JVM languages, such as Java.</p>
+<p>This talk will demonstrate some beneficial features of Scala, focusing on those which lend themselves to a functional style of program construction. These features include pattern matching, algebraic datatypes, and Scala's focus on immutable data.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      
+      
+    </div>
+  </div>
+  <div class="panel-footer">
+    January 19, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 19 Jan 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Scala: More than just a better Java</title>
     <link>http://talks.bfpg.org//talks/2016-01-19.scala_more_than_just_a_better_java.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -45,11 +90,11 @@
     </div>
   </div>
   <div class="panel-footer">
-    January 16, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    January 19, 2016 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
-    <pubDate>Sat, 16 Jan 2016 00:00:00 UT</pubDate>
+    <pubDate>Tue, 19 Jan 2016 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2016-01-19.scala_more_than_just_a_better_java.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
@@ -471,59 +516,6 @@
 ]]></description>
     <pubDate>Tue, 14 Jul 2015 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2015-07-14.neophyte_rustacean.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Scripting with Haskell</title>
-    <link>http://talks.bfpg.org//talks/2015-07-14.haskell_scripting.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Scripting with Haskell
-        <small>by Christopher McKay
-          
-            (<a href="http://twitter.com/errorific">@errorific</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Scripting with Haskell</h2>
-      <p>
-        By Christopher McKay
-        
-          (<a href="http://twitter.com/errorific">@errorific</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>After you've gone and done that haskell beginners course and learned to think functionally you go to work with giant ideas of writing perfect functional code and building a better world. Then the suit from accounting turns up and needs a script to put a csv in a database and they need it right now, so you betray your bright new ideas and reach for ruby/perl/python/bash/go to do it fast because you know how to do such things in that language fast.</p>
-<p>In this talk we'll be doing a code review of some simple haskell scripts that do common scripty tasks like taking input, reading things, printing things, calling webservices, reading csvs, and querying databases. Armed with these examples you should be prepared to introduce haskell to your workplace via dodgy scripts.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-            <a class="btn btn-xs" href="https://github.com/Errorific/haskell-script-examples" target="_blank">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
-          
-        </div>
-    </div>
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/8EZPuhYDRe8" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-  </div>
-  <div class="panel-footer">
-    July 14, 2015 - <a target="_blank" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/221830864/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 14 Jul 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-07-14.haskell_scripting.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
