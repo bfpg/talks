@@ -3,15 +3,17 @@ title: Unravelling 'bound'
 author: David Laing
 event: 226707022
 ---
-This talk aims to be a very accessible introduction to one of the most popular
-modern functional programming languages: Scala. Even those who have never come
-into contact with functional programming before should find real benefits
-within - particularly those who work with Java.  Scala is a popular programming
-language which attempts to combine features from both object-oriented and
-functional programming. As Scala compiles to JVM bytecode, it is compatible
-with existing codebases written in other JVM languages, such as Java.
+Haskell makes it easy to write embedded domain specific languages (EDSLs).
 
-This talk will demonstrate some beneficial features of Scala, focusing on those
-which lend themselves to a functional style of program construction. These
-features include pattern matching, algebraic datatypes, and Scala's focus on
-immutable data.
+Making the lamba calculus - variables, lambda abstraction and function
+application - part of our EDSLs gives us the ability to abstract and reuse
+fragments of programs in our EDSL, but can also add significant complexity to
+the implementation of the EDSL.
+
+The `bound` library greatly simplifies this for us. This means we can add some
+functionality to our EDSL very cheaply, or possibly that it solves a problem we
+didn't know we had.
+
+This talk will walk through why having the lambda calculus as part of your EDSL
+is a good thing, how to make that happen using `bound`, and some of the fun we
+can once we've done that.
