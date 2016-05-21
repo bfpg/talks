@@ -28,9 +28,7 @@ main = hakyllWith defaultConfiguration $ do
         >>= relativizeUrls
 
   match "talks/*" $ do
-    -- route $ setExtension "html"
-    -- route $ gsubRoute "talks/[0-9]{4}-[0-9]{2}-[0-9]{2}-" (const "a") `composeRoutes` setExtension "html"
-    route $ customRoute (\x -> rewriteTalkUrl $ toFilePath x) `composeRoutes` setExtension "html"
+    route $ customRoute (rewriteTalkUrl . toFilePath) `composeRoutes` setExtension "html"
     compile $ pandocCompilerWith
       (defaultHakyllReaderOptions
         { readerSmart = False
@@ -90,6 +88,7 @@ talkCtx =
   dateField "date" "%B %e, %Y" <>
   defaultContext
 
+-- Replace YYYY-MM-DD- with YYYY-MM-DD. to keep URLs consistent
 rewriteTalkUrl :: FilePath -> FilePath
 rewriteTalkUrl s =
   intercalate "-" (take 3 splitUrl) ++ "." ++ intercalate "-" (drop 3 splitUrl)
