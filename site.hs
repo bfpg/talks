@@ -3,6 +3,9 @@ import Data.Monoid         ((<>))
 import Hakyll
 import Text.Pandoc.Options
 import Data.List           (intercalate)
+import Control.Applicative (empty)
+
+import qualified Data.Map as M
 
 main :: IO ()
 main = hakyllWith defaultConfiguration $ do
@@ -83,9 +86,16 @@ main = hakyllWith defaultConfiguration $ do
 
   match "templates/*" $ compile templateCompiler
 
+--------------------
+
 talkCtx :: Context String
 talkCtx =
   dateField "date" "%B %e, %Y" <>
+  field "hasVideo" (\item -> do
+    metadata <- getMetadata (itemIdentifier item)
+    let hasVideo = M.member "ytid" metadata || M.member "vimeoid" metadata
+    if hasVideo then pure (error "no string value for bool field: hasVideo")
+        else empty) <>
   defaultContext
 
 -- Replace YYYY-MM-DD- with YYYY-MM-DD. to keep URLs consistent
