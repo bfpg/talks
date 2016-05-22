@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 set -x # Print commands before running them
+shopt -s extglob
 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
@@ -30,7 +31,9 @@ git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Clean out existing contents
-rm -rf _site/**/* || exit 0
+cd _site/
+rm -rf !(CNAME) || exit 0
+cd ..
 
 # Run our compile script
 doCompile
