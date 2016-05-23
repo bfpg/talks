@@ -21,10 +21,6 @@ main = hakyllWith defaultConfiguration $ do
     route   idRoute
     compile compressCssCompiler
 
-  match "js/*" $ do
-    route   idRoute
-    compile copyFileCompiler
-
   match (fromList ["ideas.html","future.html"]) $ do
     route idRoute
     compile $ do

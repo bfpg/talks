@@ -5,7 +5,7 @@ event: 166867012
 vimeoid: 90515452
 ---
 
-Introduction to Haskell, Part II by Nick Partridge 
+Introduction to Haskell, Part II by Nick Partridge
 
 Continuing on with the Yorgey Lecture series, we will tackle lecture 2, and
-learn the basics of declaring and using data types in Haskell. 
+learn the basics of declaring and using data types in Haskell.

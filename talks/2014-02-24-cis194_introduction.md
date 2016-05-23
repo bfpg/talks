@@ -5,10 +5,9 @@ event: 163979162
 vimeoid: 88540533
 ---
 
-Introduction to Haskell ("The Yorgey Lectures"), Part 1 by David Laing
+Brent Yorgey: [http://cis.upenn.edu/~byorgey/]()
 
-Brent Yorgey: cis.upenn.edu/~byorgey/
-"The Yorgey Lectures": http://www.seas.upenn.edu/~cis194/spring13/lectures.html
+"The Yorgey Lectures": [http://www.seas.upenn.edu/~cis194/spring13/lectures.html]()
 
 It can be hard to get starting with Haskell. Learn You a Haskell for Great Good
 is often recommended, but it has no exercises. Real World Haskell is also
