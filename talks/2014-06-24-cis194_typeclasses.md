@@ -5,8 +5,6 @@ event: 167951422
 vimeoid: 99034519
 ---
 
-Yorgey Lecture V by Fraser Tweedale
-
 All programmers know that different data types can have common attributes.
 Apples and oranges may not be comparable, but they both have weight, can be
 peeled, and so on. And if you had a basket of fruit you might want to count the

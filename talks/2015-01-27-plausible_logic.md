@@ -4,9 +4,6 @@ author: George Wilson
 event: 185383732
 vimeoid: 119619624
 ---
-
-Haskell Experience Report: An Implementation of Plausible Logic - George Wilson
-
 Many people have the impressive skill of common sense. Logics which emulate
 certain aspects of common sense fall within the field of non-monotonic
 reasoning.

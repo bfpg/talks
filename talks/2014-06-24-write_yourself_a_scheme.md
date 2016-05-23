@@ -4,7 +4,6 @@ author: Sean Chalmers
 event: 167951422
 vimeoid: 99124387
 ---
-'Write Yourself a Scheme' in 48 hours by Sean Chalmers
 
 A dive into the experience of creating a Lisp implementation in Haskell.
 

@@ -5,8 +5,6 @@ event: 166867042
 vimeoid: 97015598
 ---
 
-Java 8 for Functional Programmers by James Livingston
-
 Java 8 introduced several new features which will make applying functional
 programming principals in Java simpler, easier and more concise.
 

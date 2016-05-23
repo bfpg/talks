@@ -5,8 +5,6 @@ event: 167951452
 vimeoid: 105047461
 ---
 
-'Introduction to Haskell 7 - Folds and Monoids' by George Wilson
-
 This is the seventh instalment of Brent Yorgey's Introduction to Haskell
 lectures. 
 

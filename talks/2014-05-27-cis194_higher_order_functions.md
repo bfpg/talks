@@ -5,8 +5,6 @@ event: 166867042
 vimeoid: 97015597
 ---
 
-Yorgey Lecture IV by Christopher McKay
-
 So far we have explored data types, pattern matching, and recursive functions
 in our quest to achieve functional enlightenment, but singular functions alone
 are lonely things. If only we could assemble a number of functions together to
