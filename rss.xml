@@ -7,8 +7,99 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 10 May 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jun 2016 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Lens First Haskell</title>
+    <link>http://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Lens First Haskell
+        <small>by Nick Partridge
+          
+            (<a href="http://twitter.com/nkpart">@nkpart</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Lens First Haskell</h2>
+      <p>
+        By Nick Partridge
+        
+          (<a href="http://twitter.com/nkpart">@nkpart</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>What do pipe bands have to do with first-class references to subparts of data types (i.e. lenses)? As the only pipe band drummer in the word interested in writing a Haskell program to generate their music, Nick Partridge is in a unique position to inform us.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+            <a class="btn btn-xs" href="https://github.com/nkpart/score-writer" target="_blank" rel="noopener noreferrer">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
+          
+        </div>
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    June 14, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/230539384/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 14 Jun 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>Functional Programming in Scala Chapters 9 & 10</title>
+    <link>http://talks.bfpg.org//talks/2016-06-14.fp_in_scala_9_10.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Functional Programming in Scala Chapters 9 & 10
+        <small>by Andrew McCluskey
+          
+            (<a href="http://twitter.com/ajmacca">@ajmacca</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Functional Programming in Scala Chapters 9 & 10</h2>
+      <p>
+        By Andrew McCluskey
+        
+          (<a href="http://twitter.com/ajmacca">@ajmacca</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Andrew McCluskey will be continuing our FP in Scala series, covering chapters 9 and 10. Chapter 9 brings part two to its conclusion with an example of algebraic design applied to a parser combinator library. Algebraic design focuses on identifying the abstract data types, operations over them, and laws that constrain them - the algebra - before considering a concrete implementation. Andrew will take you through the process at a high level and briefly discuss his experiences working through the chapter.</p>
+<p>What do concatenating strings, adding integers, and parallel computations have in common? Andrew will explain in the second half of his talk, as he takes you through chapter 10. Chapter 10 covers Monoids, and is the first in part three of the book, which introduces some common patterns in functional programming and develops them into algebraic abstractions. While this might seem more theoretical than practical, Andrew plans on convincing you otherwise. He'll start by briefly covering why developing these abstractions is a useful thing to do and then dive into what a Monoid is, providing concrete examples as he goes.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    June 14, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/230539384/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 14 Jun 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-06-14.fp_in_scala_9_10.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Functional Programming in Scala Chapters 7 & 8</title>
     <link>http://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -420,96 +511,6 @@
 ]]></description>
     <pubDate>Tue, 19 Jan 2016 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Scala: More than just a better Java</title>
-    <link>http://talks.bfpg.org//talks/2016-01-19.scala_more_than_just_a_better_java.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Scala: More than just a better Java
-        <small>by George Wilson
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Scala: More than just a better Java</h2>
-      <p>
-        By George Wilson
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>This talk aims to be a very accessible introduction to one of the most popular modern functional programming languages: Scala. Even those who have never come into contact with functional programming before should find real benefits within - particularly those who work with Java. Scala is a popular programming language which attempts to combine features from both object-oriented and functional programming. As Scala compiles to JVM bytecode, it is compatible with existing codebases written in other JVM languages, such as Java.</p>
-<p>This talk will demonstrate some beneficial features of Scala, focusing on those which lend themselves to a functional style of program construction. These features include pattern matching, algebraic datatypes, and Scala's focus on immutable data.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    January 19, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 19 Jan 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-01-19.scala_more_than_just_a_better_java.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Swift & Rx</title>
-    <link>http://talks.bfpg.org//talks/2015-11-10.swift_and_rx.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Swift & Rx
-        <small>by Harish Subramanium
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Swift & Rx</h2>
-      <p>
-        By Harish Subramanium
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Making iOS applications can be a tricky mess of callbacks and fiddly resource deallocation. In this talk we will look at swift and the swift reactive extensions to see how functional programming can tame these challenges.</p>
-<p>This talk will be code example focused but will require no prior knowledge of iOS dev or Rx.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/xMDarHcjPf0" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    November 10, 2015 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226040468/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 10 Nov 2015 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2015-11-10.swift_and_rx.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
