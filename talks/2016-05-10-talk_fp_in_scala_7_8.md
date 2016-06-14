@@ -4,6 +4,7 @@ author: Matt Newman
 twitter: mdjnewman
 slides: http://mdjnewman.github.io/talk-fp-in-scala-7-8/
 event: 230099578
+ytid: ZSKeOZMoWUg
 ---
 Firstly, we delve into writing a library for doing parallel computation in a
 purely functional way. This gives us a chance not only to examine parallelism,

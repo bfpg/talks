@@ -2,6 +2,7 @@
 title: Purescript - An Experience Report
 author: Ben Kolera
 event: 228168565
+ytid: Tjk4H1eci2k
 ---
 One of the first tasks that I got asked to do at Ephox was to construct a proof
 of concept new feature in one of our editors. This involved integrating an open

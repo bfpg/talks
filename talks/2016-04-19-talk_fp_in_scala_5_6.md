@@ -2,6 +2,7 @@
 title: Functional Programming in Scala Chapters 5 & 6
 author: John Vial
 event: 228168565
+ytid: VqJTaCOBlTw
 ---
 This talk will be a brief overview of Chapters 5 & 6 from Functional
 Programming in Scala.
