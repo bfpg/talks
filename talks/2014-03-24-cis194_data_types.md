@@ -2,6 +2,7 @@
 title: Algebraic Data Types (CIS194 Wk 2)
 author: Nick Partridge
 event: 166867012
+twitter: nkpart
 vimeoid: 90515452
 ---
 
