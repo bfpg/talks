@@ -8,8 +8,58 @@
         <name>BFPG</name>
         <email>exec@lists.bfpg.org</email>
     </author>
-    <updated>2016-06-14T00:00:00Z</updated>
+    <updated>2016-07-12T00:00:00Z</updated>
     <entry>
+    <title>Functional Programming in Scala Chapters 11 & 12</title>
+    <link href="http://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html" />
+    <id>http://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html</id>
+    <published>2016-07-12T00:00:00Z</published>
+    <updated>2016-07-12T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Functional Programming in Scala Chapters 11 & 12
+        <small>by Andrew Newman
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Functional Programming in Scala Chapters 11 & 12</h2>
+      <p>
+        By Andrew Newman
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>In Chapter 10, we introduced a simple algebraic structure, the monoid. This was our first instance of a completely abstract, purely algebraic interface, and it led us to think about interfaces in a new way. A useful interface may be defined only by a collection of operations related by laws.</p>
+<p>In Chapter 11, we’ll continue this mode of thinking and apply it to the problem of factoring out code duplication across some of the libraries we wrote in parts 1 and 2. We’ll discover two new abstract interfaces, Functor and Monad, and get more general experience with spotting these sorts of abstract structures in our code.</p>
+<p>In Chapter 12 we’ll learn about a related abstraction, applicative functors, which are less powerful than monads, but more general (and hence more common). The process of arriving at applicative functors will also provide some insight into how to discover such abstractions, and we’ll use some of these ideas to uncover another useful abstraction, traversable functors. It may take some time for the full significance and usefulness of these abstractions to sink in, but you’ll see them popping up again and again in your daily work with FP if you pay attention.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AKH3LjGEN6U" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    July 12, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231228805/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Lens First Haskell</title>
     <link href="http://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html" />
     <id>http://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</id>
@@ -46,6 +96,14 @@
             <a class="btn btn-xs" href="https://github.com/nkpart/score-writer" target="_blank" rel="noopener noreferrer">Source Code <i class="mdi-action-launch mdi-sm"></i></a>
           
         </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4MaaQmll8D0" frameborder="0" allowfullscreen></iframe>
+      
+      
     </div>
     
   </div>
@@ -91,6 +149,14 @@
           
           
         </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mt4Nl758DvM" frameborder="0" allowfullscreen></iframe>
+      
+      
     </div>
     
   </div>
@@ -467,49 +533,6 @@
   </div>
   <div class="panel-footer">
     February  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/227857530/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Unravelling 'bound'</title>
-    <link href="http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html" />
-    <id>http://talks.bfpg.org//talks/2016-01-19.unravelling_bound.html</id>
-    <published>2016-01-19T00:00:00Z</published>
-    <updated>2016-01-19T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Unravelling 'bound'
-        <small>by David Laing
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Unravelling 'bound'</h2>
-      <p>
-        By David Laing
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Haskell makes it easy to write embedded domain specific languages (EDSLs).</p>
-<p>Making the lamba calculus - variables, lambda abstraction and function application - part of our EDSLs gives us the ability to abstract and reuse fragments of programs in our EDSL, but can also add significant complexity to the implementation of the EDSL.</p>
-<p>The <code>bound</code> library greatly simplifies this for us. This means we can add some functionality to our EDSL very cheaply, or possibly that it solves a problem we didn't know we had.</p>
-<p>This talk will walk through why having the lambda calculus as part of your EDSL is a good thing, how to make that happen using <code>bound</code>, and some of the fun we can once we've done that.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    January 19, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/226707022/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></summary>
