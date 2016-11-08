@@ -1,6 +1,7 @@
 ---
 title: Purescript - An Experience Report
 author: Ben Kolera
+twitter: benkolera
 event: 228168565
 ytid: Tjk4H1eci2k
 ---
