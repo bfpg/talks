@@ -7,8 +7,272 @@
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
         <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 12 Jul 2016 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Oct 2016 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Thinking with Types</title>
+    <link>http://talks.bfpg.org//talks/2016-10-11.thinking-with-types.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Thinking with Types
+        <small>by Ben Kolera
+          
+            (<a href="http://twitter.com/benkolera">@benkolera</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Thinking with Types</h2>
+      <p>
+        By Ben Kolera
+        
+          (<a href="http://twitter.com/benkolera">@benkolera</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>A core restriction of functional programming is that functions can only use their inputs to calculate their output and thus must always return the same output for a given input. This has the lovely effect that we can reason about what a function does purely by the the types of their inputs and outputs and use that knowledge when refactoring and composing functional programs.</p>
+<p>The types are our key to reducing the possibilities of inputs and outputs of our functions. As we reduce the possibilities and weaken what our function can actually do, we make our function easier to reasonable about and thus easier to safely compose. In this talk, we will go through the tools that we have in the purescript programming language to make this local reasonability more and more powerful.</p>
+<ul>
+<li>Product types</li>
+<li>Sum types</li>
+<li>Parametricity</li>
+<li>Parametricity + Typeclasses</li>
+<li>Extensible Effect Tracking</li>
+</ul>
+<p>This should be a beginner level talk that will presume no knowledge of purescript, FP or Haskell-like syntax.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-LPQ5D9MFkk" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    October 11, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/234104100/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 11 Oct 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-10-11.thinking-with-types.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>FRP with Events and Behaviors (Part 1)</title>
+    <link>http://talks.bfpg.org//talks/2016-09-13.frp-with-events-and-behaviours.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        FRP with Events and Behaviors (Part 1)
+        <small>by David Laing
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>FRP with Events and Behaviors (Part 1)</h2>
+      <p>
+        By David Laing
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Functional Reactive Programming (FRP) is an overloaded term.</p>
+<p>The varieties of FRP that include events and behaviors are closer on the spectrum to the original meaning. Those systems have a lot of high value features - well-defined semantics, great composition - but examples and documentation probably aren't usually counted among them.</p>
+<p>This talk will cover the basics of event-and-behavior FRP using the reactive-banana library.</p>
+<p>All of the basic concepts will be covered, we'll be playing around with some interesting design opportunities that FRP allows. We'll be alternating between looking at the FRP combinators and building up example code, as we incrementally put together the FRP equivalent of the chat server described in Parallel and Concurrent Programming in Haskell.</p>
+<p>Once we get to the end, we should be enthused, ready to give events-and-behaviors FRP a try, and ready for Part2 ...</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GXW1jBijhlk" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    September 13, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851738/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 13 Sep 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-09-13.frp-with-events-and-behaviours.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>The Extended Functor Family</title>
+    <link>http://talks.bfpg.org//talks/2016-08-09.the-extended-functor-family.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        The Extended Functor Family
+        <small>by George Wilson
+          
+            (<a href="http://twitter.com/georgetalkscode">@georgetalkscode</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>The Extended Functor Family</h2>
+      <p>
+        By George Wilson
+        
+          (<a href="http://twitter.com/georgetalkscode">@georgetalkscode</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Functors are ubiquitous in modern strongly-typed functional programming. Every Haskell beginner will come across them as one of the first typeclasses introduced. Stronger structures such as Applicative and Monad often steal the spotlight, but there are many structures related to the humble Functor that go unnoticed. The goal of this talk is to show off and give an intuition for some of these other structures: contravariant functors, bifunctors, and profunctors. With some of these making their way into Haskell's standard library recently, now is a perfect time to be introduced to or brush up on these concepts. Code examples will use Haskell, but these techniques extend to any language with typeclasses or a similar mechanism, such as Scala's implicits.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 09 Aug 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-08-09.the-extended-functor-family.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>GHC Rewrite Rules</title>
+    <link>http://talks.bfpg.org//talks/2016-08-09.ghc-rewrite-rules.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        GHC Rewrite Rules
+        <small>by Fraser Tweedale
+          
+            (<a href="http://twitter.com/hackuador">@hackuador</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>GHC Rewrite Rules</h2>
+      <p>
+        By Fraser Tweedale
+        
+          (<a href="http://twitter.com/hackuador">@hackuador</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>Fraser talks about some of the cool things that you can do with GHC rewrite rules.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vDtMiTdC_n0" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 09 Aug 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-08-09.ghc-rewrite-rules.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
+    <title>Functional Programming in Aviation</title>
+    <link>http://talks.bfpg.org//talks/2016-08-09.functional-programming-in-aviation.html</link>
+    <description><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="visible-md-block visible-lg-block">
+      <h2>
+        Functional Programming in Aviation
+        <small>by Tony Morris
+          
+            (<a href="http://twitter.com/dibblego">@dibblego</a>)
+          
+        </small>
+      </h2>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+      <h2>Functional Programming in Aviation</h2>
+      <p>
+        By Tony Morris
+        
+          (<a href="http://twitter.com/dibblego">@dibblego</a>)
+        
+      </p>
+    </div>
+  </div>
+  <div class="panel-body">
+    <p>In this talk &amp; demo, we have a look at some of the problems in general aviation as well as air transport (passenger &amp; freight). The current solutions to problems such as navigation, traffic and terrain collision avoidance and flight scheduling are clumsy, unreliable and impossible to extend. Other problems in aviation involve tragic events such as Malaysian Air Flight 370 and EgyptAir flight 804.</p>
+<p>These problems continue to exist because of the properties of current avionics and the unfortunate data management techniques that must inevitably follow. Proprietary hardware and software continues to limit the field of aviation, where low-cost, open, extensible solutions can otherwise exist. As field experts in computer science, we have a duty to inform industry of our specialised endeavours so that they may exploit those advances.</p>
+<p>A live demonstration of a software define radio device acting as a receiver for automatic aircraft transmissions (ADS-B) and location (GPS) will be deployed and the Haskell programming language will interface with the device to obtain live aircraft data. Queries of the live data are made using the Haskell lens library and various other appropriate data structures. Other sensors on this cheap, garage-made electronic device include barometric pressure, magnetic compass and accelerometer for roll, pitch &amp; yaw.</p>
+<p>We all regularly wear our earphones to write code, in a tube that flies through unbreathable air at over half the speed of sound, monitored by a system developed in 1978. Meanwhile, John Backus was writing his ACM Turing-award winning paper on being liberated from von Neumann style. Not cool.</p>
+    <div class="row" s>
+        <div class="col-xs-12">
+          
+          
+        </div>
+    </div>
+    
+    <hr/>
+    <div class="videoWrapper">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cXm6bPQeaHs" frameborder="0" allowfullscreen></iframe>
+      
+      
+    </div>
+    
+  </div>
+  <div class="panel-footer">
+    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+  </div>
+</div>
+]]></description>
+    <pubDate>Tue, 09 Aug 2016 00:00:00 UT</pubDate>
+    <guid>http://talks.bfpg.org//talks/2016-08-09.functional-programming-in-aviation.html</guid>
+    <dc:creator>BFPG</dc:creator>
+</item>
+<item>
     <title>Functional Programming in Scala Chapters 11 & 12</title>
     <link>http://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html</link>
     <description><![CDATA[<div class="panel panel-default">
@@ -268,272 +532,6 @@
 ]]></description>
     <pubDate>Tue, 19 Apr 2016 00:00:00 UT</pubDate>
     <guid>http://talks.bfpg.org//talks/2016-04-19.talk_fp_in_scala_5_6.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Purescript - An Experience Report</title>
-    <link>http://talks.bfpg.org//talks/2016-04-19.purescript_an_experience_report.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Purescript - An Experience Report
-        <small>by Ben Kolera
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Purescript - An Experience Report</h2>
-      <p>
-        By Ben Kolera
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>One of the first tasks that I got asked to do at Ephox was to construct a proof of concept new feature in one of our editors. This involved integrating an open source library that kinda met the mark, changing and building up new code around it until it became a viable tool for exploring the idea with non-technical staff and customers.</p>
-<p>As someone hired as a Scala developer and devops guy too far lost into the pure FP coolaid, I quickly found myself ill-equipped to develop complicated new features on the base of mutabily, no types and unbridled side effects.</p>
-<p>This talk outlines Ben's experiences and learnings going from a javascript feature codebase codebase and replacing it with purescript. It won't teach you how to code purescript, but it should share enough war stories and insight to help you make the decision to learn and use it yourself.</p>
-<p>Unfortunately given that the PoC was for a brand new feature Ben cannot share the actual code or talk about the feature in detail, but we'll hopefully have enough contrived examples to convey the message. If not, I'm happy to answer lots of questions if there are gaps.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Tjk4H1eci2k" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    April 19, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168565/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 19 Apr 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-04-19.purescript_an_experience_report.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Functional Programming in Scala Chapters 3 & 4</title>
-    <link>http://talks.bfpg.org//talks/2016-03-08.talk_fp_in_scala_3_4.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Functional Programming in Scala Chapters 3 & 4
-        <small>by Sean Chalmers
-          
-            (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Functional Programming in Scala Chapters 3 & 4</h2>
-      <p>
-        By Sean Chalmers
-        
-          (<a href="http://twitter.com/mankykitty">@mankykitty</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p><em>Chapter 3: Functional Data Structures</em></p>
-<p>In this chapter, we'll learn the concept of functional data structures and how to work with them. We'll use this as an opportunity to introduce how data types are defined in functional programming, learn about the related technique of pattern matching, and get practice writing and generalizing pure functions.</p>
-<p><em>Chapter 4: Functional Error Handling</em></p>
-<p>In this chapter, we'll learn the basic principles for raising and handling errors functionally. The big idea is that we can represent failures and exceptions with ordinary values, and we can write higher-order functions that abstract out common patterns of error handling and recovery.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="https://github.com/mankyKitty/fpis-ch3-4-talk" target="_blank" rel="noopener noreferrer">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-        </div>
-    </div>
-    
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/SIQHiTK5Qi8" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    March  8, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168562/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 08 Mar 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-03-08.talk_fp_in_scala_3_4.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>A slideshow toolchain with ReST, Pandoc and LaTeX Beamer</title>
-    <link>http://talks.bfpg.org//talks/2016-03-08.a_slideshow_toolchain_with_rest_pandoc_and_latex_beamer.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        A slideshow toolchain with ReST, Pandoc and LaTeX Beamer
-        <small>by Fraser Tweedale
-          
-            (<a href="http://twitter.com/hackuador">@hackuador</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>A slideshow toolchain with ReST, Pandoc and LaTeX Beamer</h2>
-      <p>
-        By Fraser Tweedale
-        
-          (<a href="http://twitter.com/hackuador">@hackuador</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Giving technical presentations is a worthwhile and satisfying endeavour, but producing a quality slide deck can be a frustrating and time consuming activity. It needn't be.</p>
-<p>In this talk I will show you my slide toolchain which, in brief, turns ReStructuredText (a lightweight markup format) into a PDF via Pandoc (a &quot;universal document converter&quot; written in Haskell), allowing me to focus on the structure and content of my presentations and not worry about formatting.</p>
-<p>We will cover basic formatting, math, code, images, Unicode, foreign scripts, slide appearance and themes, and how to escape from ReST and access the full power of LaTeX when needed. There will also be a brief detour into Pandoc internals and a discussion of ways to vary the toolchain for alternative markup language preferences or output formats.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="https://github.com/frasertweedale/talks/tree/master/20160308-bfpg-pandoc-slides" target="_blank" rel="noopener noreferrer">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-        </div>
-    </div>
-    
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vE7cNe44l-4" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    March  8, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168562/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 08 Mar 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-03-08.a_slideshow_toolchain_with_rest_pandoc_and_latex_beamer.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Functional Programming in Scala Chapters 1 & 2</title>
-    <link>http://talks.bfpg.org//talks/2016-02-09.talk_fp_in_scala_1_2.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Functional Programming in Scala Chapters 1 & 2
-        <small>by Ben Kolera
-          
-            (<a href="http://twitter.com/benkolera">@benkolera</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Functional Programming in Scala Chapters 1 & 2</h2>
-      <p>
-        By Ben Kolera
-        
-          (<a href="http://twitter.com/benkolera">@benkolera</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>This is the first instalment of following through the FP in Scala book as part of our meetups.</p>
-<p>Chapter 1 introduces the essence of functional programming and why we should care about it.</p>
-<p>Chapter 2 is a crash course in scala syntax that will get you up and running ready to play for the next chapters.</p>
-<p>The book has exercises in it: we're going to have time at the hack night for people to come in, work on and get help if they need it.</p>
-<p>If you are planning to follow along, I'd highly recommend buying the (e)book and reading along: you'll learn better if you read and watch the talks.</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-            <a class="btn btn-xs"href="https://github.com/benkolera/talk-fp-in-scala-1-2" target="_blank" rel="noopener noreferrer">Slides <i class="mdi-action-launch mdi-sm"></i></a>
-          
-          
-        </div>
-    </div>
-    
-    <hr/>
-    <div class="videoWrapper">
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Sj12uS1Oc48" frameborder="0" allowfullscreen></iframe>
-      
-      
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    February  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/227857530/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 09 Feb 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-02-09.talk_fp_in_scala_1_2.html</guid>
-    <dc:creator>BFPG</dc:creator>
-</item>
-<item>
-    <title>Haskell at Facebook</title>
-    <link>http://talks.bfpg.org//talks/2016-02-09.haskell_at_facebook.html</link>
-    <description><![CDATA[<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="visible-md-block visible-lg-block">
-      <h2>
-        Haskell at Facebook
-        <small>by Katie Miller
-          
-            (<a href="http://twitter.com/codemiller">@codemiller</a>)
-          
-        </small>
-      </h2>
-    </div>
-    <div class="visible-xs-block visible-sm-block">
-      <h2>Haskell at Facebook</h2>
-      <p>
-        By Katie Miller
-        
-          (<a href="http://twitter.com/codemiller">@codemiller</a>)
-        
-      </p>
-    </div>
-  </div>
-  <div class="panel-body">
-    <p>Katie is back in town and going to talk to us about something though at this point I'm not sure what. Given that she's been working at facebook in one of their Haskell teams I'm sure that will be awesome! :)</p>
-    <div class="row" s>
-        <div class="col-xs-12">
-          
-          
-        </div>
-    </div>
-    
-  </div>
-  <div class="panel-footer">
-    February  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/227857530/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
-  </div>
-</div>
-]]></description>
-    <pubDate>Tue, 09 Feb 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-02-09.haskell_at_facebook.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
