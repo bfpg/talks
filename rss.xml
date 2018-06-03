@@ -3,14 +3,14 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>BFPG Talks</title>
-        <link>http://talks.bfpg.org/</link>
+        <link>https://talks.bfpg.org/</link>
         <description><![CDATA[The Brisbane Functional Programming Group holds both a monthly talks and hack nights to help people learn functional programing at all levels. We aim to foster an environment friendly to both beginners and industrial users of FP.]]></description>
-        <atom:link href="http://talks.bfpg.org//rss.xml" rel="self"
+        <atom:link href="https://talks.bfpg.org//rss.xml" rel="self"
                    type="application/rss+xml" />
         <lastBuildDate>Tue, 11 Oct 2016 00:00:00 UT</lastBuildDate>
         <item>
     <title>Thinking with Types</title>
-    <link>http://talks.bfpg.org//talks/2016-10-11.thinking-with-types.html</link>
+    <link>https://talks.bfpg.org//talks/2016-10-11.thinking-with-types.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -18,7 +18,7 @@
         Thinking with Types
         <small>by Ben Kolera
           
-            (<a href="http://twitter.com/benkolera">@benkolera</a>)
+            (<a href="https://twitter.com/benkolera">@benkolera</a>)
           
         </small>
       </h2>
@@ -28,7 +28,7 @@
       <p>
         By Ben Kolera
         
-          (<a href="http://twitter.com/benkolera">@benkolera</a>)
+          (<a href="https://twitter.com/benkolera">@benkolera</a>)
         
       </p>
     </div>
@@ -61,17 +61,17 @@
     
   </div>
   <div class="panel-footer">
-    October 11, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/234104100/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    October 11, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/234104100/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 11 Oct 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-10-11.thinking-with-types.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-10-11.thinking-with-types.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>FRP with Events and Behaviors (Part 1)</title>
-    <link>http://talks.bfpg.org//talks/2016-09-13.frp-with-events-and-behaviours.html</link>
+    <link>https://talks.bfpg.org//talks/2016-09-13.frp-with-events-and-behaviours.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -113,17 +113,17 @@
     
   </div>
   <div class="panel-footer">
-    September 13, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851738/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    September 13, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851738/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 13 Sep 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-09-13.frp-with-events-and-behaviours.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-09-13.frp-with-events-and-behaviours.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>The Extended Functor Family</title>
-    <link>http://talks.bfpg.org//talks/2016-08-09.the-extended-functor-family.html</link>
+    <link>https://talks.bfpg.org//talks/2016-08-09.the-extended-functor-family.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -131,7 +131,7 @@
         The Extended Functor Family
         <small>by George Wilson
           
-            (<a href="http://twitter.com/georgetalkscode">@georgetalkscode</a>)
+            (<a href="https://twitter.com/georgetalkscode">@georgetalkscode</a>)
           
         </small>
       </h2>
@@ -141,7 +141,7 @@
       <p>
         By George Wilson
         
-          (<a href="http://twitter.com/georgetalkscode">@georgetalkscode</a>)
+          (<a href="https://twitter.com/georgetalkscode">@georgetalkscode</a>)
         
       </p>
     </div>
@@ -157,17 +157,17 @@
     
   </div>
   <div class="panel-footer">
-    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 09 Aug 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-08-09.the-extended-functor-family.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-08-09.the-extended-functor-family.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>GHC Rewrite Rules</title>
-    <link>http://talks.bfpg.org//talks/2016-08-09.ghc-rewrite-rules.html</link>
+    <link>https://talks.bfpg.org//talks/2016-08-09.ghc-rewrite-rules.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -175,7 +175,7 @@
         GHC Rewrite Rules
         <small>by Fraser Tweedale
           
-            (<a href="http://twitter.com/hackuador">@hackuador</a>)
+            (<a href="https://twitter.com/hackuador">@hackuador</a>)
           
         </small>
       </h2>
@@ -185,7 +185,7 @@
       <p>
         By Fraser Tweedale
         
-          (<a href="http://twitter.com/hackuador">@hackuador</a>)
+          (<a href="https://twitter.com/hackuador">@hackuador</a>)
         
       </p>
     </div>
@@ -209,17 +209,17 @@
     
   </div>
   <div class="panel-footer">
-    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 09 Aug 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-08-09.ghc-rewrite-rules.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-08-09.ghc-rewrite-rules.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>Functional Programming in Aviation</title>
-    <link>http://talks.bfpg.org//talks/2016-08-09.functional-programming-in-aviation.html</link>
+    <link>https://talks.bfpg.org//talks/2016-08-09.functional-programming-in-aviation.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -227,7 +227,7 @@
         Functional Programming in Aviation
         <small>by Tony Morris
           
-            (<a href="http://twitter.com/dibblego">@dibblego</a>)
+            (<a href="https://twitter.com/dibblego">@dibblego</a>)
           
         </small>
       </h2>
@@ -237,7 +237,7 @@
       <p>
         By Tony Morris
         
-          (<a href="http://twitter.com/dibblego">@dibblego</a>)
+          (<a href="https://twitter.com/dibblego">@dibblego</a>)
         
       </p>
     </div>
@@ -264,17 +264,17 @@
     
   </div>
   <div class="panel-footer">
-    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    August  9, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/231851733/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 09 Aug 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-08-09.functional-programming-in-aviation.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-08-09.functional-programming-in-aviation.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>Functional Programming in Scala Chapters 11 & 12</title>
-    <link>http://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html</link>
+    <link>https://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -314,17 +314,17 @@
     
   </div>
   <div class="panel-footer">
-    July 12, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/231228805/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    July 12, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/231228805/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 12 Jul 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-07-12.fp_in_scala_11_12.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>Lens First Haskell</title>
-    <link>http://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</link>
+    <link>https://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -332,7 +332,7 @@
         Lens First Haskell
         <small>by Nick Partridge
           
-            (<a href="http://twitter.com/nkpart">@nkpart</a>)
+            (<a href="https://twitter.com/nkpart">@nkpart</a>)
           
         </small>
       </h2>
@@ -342,7 +342,7 @@
       <p>
         By Nick Partridge
         
-          (<a href="http://twitter.com/nkpart">@nkpart</a>)
+          (<a href="https://twitter.com/nkpart">@nkpart</a>)
         
       </p>
     </div>
@@ -368,17 +368,17 @@
     
   </div>
   <div class="panel-footer">
-    June 14, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/230539384/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    June 14, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/230539384/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 14 Jun 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-06-14.lens_first_haskell.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>Functional Programming in Scala Chapters 9 & 10</title>
-    <link>http://talks.bfpg.org//talks/2016-06-14.fp_in_scala_9_10.html</link>
+    <link>https://talks.bfpg.org//talks/2016-06-14.fp_in_scala_9_10.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -386,7 +386,7 @@
         Functional Programming in Scala Chapters 9 & 10
         <small>by Andrew McCluskey
           
-            (<a href="http://twitter.com/ajmacca">@ajmacca</a>)
+            (<a href="https://twitter.com/ajmacca">@ajmacca</a>)
           
         </small>
       </h2>
@@ -396,7 +396,7 @@
       <p>
         By Andrew McCluskey
         
-          (<a href="http://twitter.com/ajmacca">@ajmacca</a>)
+          (<a href="https://twitter.com/ajmacca">@ajmacca</a>)
         
       </p>
     </div>
@@ -421,17 +421,17 @@
     
   </div>
   <div class="panel-footer">
-    June 14, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/230539384/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    June 14, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/230539384/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 14 Jun 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-06-14.fp_in_scala_9_10.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-06-14.fp_in_scala_9_10.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>Functional Programming in Scala Chapters 7 & 8</title>
-    <link>http://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</link>
+    <link>https://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -439,7 +439,7 @@
         Functional Programming in Scala Chapters 7 & 8
         <small>by Matt Newman
           
-            (<a href="http://twitter.com/mdjnewman">@mdjnewman</a>)
+            (<a href="https://twitter.com/mdjnewman">@mdjnewman</a>)
           
         </small>
       </h2>
@@ -449,7 +449,7 @@
       <p>
         By Matt Newman
         
-          (<a href="http://twitter.com/mdjnewman">@mdjnewman</a>)
+          (<a href="https://twitter.com/mdjnewman">@mdjnewman</a>)
         
       </p>
     </div>
@@ -476,17 +476,17 @@
     
   </div>
   <div class="panel-footer">
-    May 10, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/230099578/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    May 10, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/230099578/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 10 May 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-05-10.talk_fp_in_scala_7_8.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 <item>
     <title>Functional Programming in Scala Chapters 5 & 6</title>
-    <link>http://talks.bfpg.org//talks/2016-04-19.talk_fp_in_scala_5_6.html</link>
+    <link>https://talks.bfpg.org//talks/2016-04-19.talk_fp_in_scala_5_6.html</link>
     <description><![CDATA[<div class="panel panel-default">
   <div class="panel-heading">
     <div class="visible-md-block visible-lg-block">
@@ -526,12 +526,12 @@
     
   </div>
   <div class="panel-footer">
-    April 19, 2016 - <a target="_blank" rel="noopener noreferrer" href="http://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168565/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
+    April 19, 2016 - <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/228168565/">View on Meetup <i class="mdi-action-launch mdi-sm"></i></a>
   </div>
 </div>
 ]]></description>
     <pubDate>Tue, 19 Apr 2016 00:00:00 UT</pubDate>
-    <guid>http://talks.bfpg.org//talks/2016-04-19.talk_fp_in_scala_5_6.html</guid>
+    <guid>https://talks.bfpg.org//talks/2016-04-19.talk_fp_in_scala_5_6.html</guid>
     <dc:creator>BFPG</dc:creator>
 </item>
 
