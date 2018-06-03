@@ -4,7 +4,7 @@ BFPG Talks Static Site
 [![Build Status](https://travis-ci.org/bfpg/talks.svg?branch=master)](https://travis-ci.org/bfpg/talks)
 
 This [Hakyll](https://jaspervdj.be/hakyll/) source generates the static HTML
-that is shown at [http://talks.bfpg.org](http://talks.bfpg.org).
+that is shown at [https://talks.bfpg.org](https://talks.bfpg.org).
 
 The static site is served from [GitHub Pages](https://github.com/bfpg/talks/tree/gh-pages).
 
@@ -12,7 +12,7 @@ Dev environment setup
 ---------------------
 
 Before running the following,
-[install stack](http://docs.haskellstack.org/en/stable/README/#how-to-install)
+[install stack](https://docs.haskellstack.org/en/stable/README/#how-to-install)
 if you haven't already.
 
 ```

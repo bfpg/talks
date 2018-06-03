@@ -58,7 +58,7 @@ main = hakyllWith defaultConfiguration $ do
          >>= loadAndApplyTemplate "templates/default.html" talksCtx
          >>= relativizeUrls
 
-  -- http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html
+  -- https://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html
   let rss name render' =
         create [name] $ do
           route idRoute
@@ -115,5 +115,5 @@ feedConfiguration = FeedConfiguration
     ]
   , feedAuthorName  = "BFPG"
   , feedAuthorEmail = "exec@lists.bfpg.org"
-  , feedRoot        = "http://talks.bfpg.org/"
+  , feedRoot        = "https://talks.bfpg.org/"
   }
